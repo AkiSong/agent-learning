@@ -1,0 +1,193 @@
+{
+  "updated_at": "2026-05-04T14:30:00Z",
+  "total_articles": 17,
+  "articles": [
+    {
+      "id": "willchen96/mike",
+      "title": "mike",
+      "slug": "willchen96-mike",
+      "url": "https://github.com/willchen96/mike",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-willchen96-mike.md",
+      "relevance_score": 8.0,
+      "tags": ["legal-tech", "ai-platform", "typescript", "open-source", "document-automation"],
+      "summary": "Mike 是一个开源的 AI 法律平台，采用 TypeScript 构建。该项目致力于将人工智能技术引入法律领域，可能提供合同分析、法律文档自动化或合规检查等功能。"
+    },
+    {
+      "id": "mattpocock/dictionary-of-ai-coding",
+      "title": "dictionary-of-ai-coding",
+      "slug": "mattpocock-dictionary-of-ai-coding",
+      "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-mattpocock-dictionary-of-ai-coding.md",
+      "relevance_score": 7.5,
+      "tags": ["education", "ai-coding", "glossary", "typescript", "developer-tools"],
+      "summary": "这是一个由知名 TypeScript 教育者 Matt Pocock 创建的 AI 编程术语词典项目。该项目用通俗易懂的英文解释 AI 编程领域的专业术语和行话，帮助开发者快速理解 AI 辅助编程中的概念。"
+    },
+    {
+      "id": "noonghunna/club-3090",
+      "title": "club-3090",
+      "slug": "noonghunna-club-3090",
+      "url": "https://github.com/noonghunna/club-3090",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-noonghunna-club-3090.md",
+      "relevance_score": 9.0,
+      "tags": ["local-llm", "rtx-3090", "vllm", "llama-cpp", "sglang", "deployment", "community"],
+      "summary": "Club-3090 是一个面向 RTX 3090 显卡用户的社区驱动项目，提供在本地部署和运行大型语言模型的配置文件和最佳实践。项目支持 vLLM、llama.cpp、SGLang 等多个推理引擎，当前主"
+    },
+    {
+      "id": "Tommy-yw/RunbookHermes",
+      "title": "RunbookHermes",
+      "slug": "tommy-yw-runbookhermes",
+      "url": "https://github.com/Tommy-yw/RunbookHermes",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-tommy-yw-runbookhermes.md",
+      "relevance_score": 8.5,
+      "tags": ["aiops", "incident-response", "automation", "python", "hermes", "runbook", "llm-agent"],
+      "summary": "RunbookHermes 是一个基于 Hermes 框架的 AIOps 智能运维代理，使用 Python 开发。该代理专注于证据驱动的故障响应，支持审批门控的自动修复和运行手册学习。它能够在 IT 运维"
+    },
+    {
+      "id": "tddworks/baguette",
+      "title": "baguette",
+      "slug": "tddworks-baguette",
+      "url": "https://github.com/tddworks/baguette",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-tddworks-baguette.md",
+      "relevance_score": 7.0,
+      "tags": ["ios", "simulator", "swift", "automation-testing", "device-farm", "streaming", "headless"],
+      "summary": "Baguette 是一个用于 iOS 26 的无头模拟器管理器和设备农场工具，使用 Swift 编写。它支持主机端的输入注入功能，包括点击、滑动、多指手势模拟，以及 60fps 的屏幕串流。该"
+    },
+    {
+      "id": "skydoves/compose-performance-skills",
+      "title": "compose-performance-skills",
+      "slug": "skydoves-compose-performance-skills",
+      "url": "https://github.com/skydoves/compose-performance-skills",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-skydoves-compose-performance-skills.md",
+      "relevance_score": 8.0,
+      "tags": ["android", "jetpack-compose", "performance", "claude-code", "agent-skills", "kotlin", "mobile"],
+      "summary": "这是一个精心策划的 Jetpack Compose 性能优化 Agent Skills 库，由知名 Android 开发者 skydoves 维护。项目收集了专门针对 Compose 性能问题的 AI 辅助技能，涵盖重组优化、状"
+    },
+    {
+      "id": "Julpygo/Claude-Code-AI-Design",
+      "title": "Claude-Code-AI-Design",
+      "slug": "julpygo-claude-code-ai-design",
+      "url": "https://github.com/Julpygo/Claude-Code-AI-Design",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-julpygo-claude-code-ai-design.md",
+      "relevance_score": 8.5,
+      "tags": ["design-to-code", "figma", "claude-code", "mcp", "react", "tailwind", "ui-automation"],
+      "summary": "该项目是一个 Claude Code 的 AI 设计工具集成方案，支持将 Figma 设计直接转换为代码。项目提供 React 19 和 Tailwind v4 支持，包含 Model Context Protocol (MCP) 服务器设置、"
+    },
+    {
+      "id": "Senabayu08989/Stable-Diffusion-AI-Free",
+      "title": "Stable-Diffusion-AI-Free",
+      "slug": "senabayu08989-stable-diffusion-ai-free",
+      "url": "https://github.com/Senabayu08989/Stable-Diffusion-AI-Free",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-senabayu08989-stable-diffusion-ai-free.md",
+      "relevance_score": 8.0,
+      "tags": ["stable-diffusion", "image-generation", "local-ai", "flux", "comfyui", "controlnet", "lora"],
+      "summary": "这是一个免费的 Stable Diffusion AI 图像生成器项目，支持本地部署和离线运行。项目涵盖 Flux 2、SDXL Turbo、ControlNet 等主流模型和技术，支持 LoRA 训练和实时视频生成。"
+    },
+    {
+      "id": "lukiIabs/trading-agents",
+      "title": "trading-agents",
+      "slug": "lukiilabs-trading-agents",
+      "url": "https://github.com/lukiIabs/trading-agents",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-lukiilabs-trading-agents.md",
+      "relevance_score": 7.5,
+      "tags": ["trading", "finance", "multi-agent", "llm", "quantitative", "crypto", "sentiment-analysis"],
+      "summary": "TradingAgents 是一个基于大语言模型的多代理金融交易系统，使用 Python 开发。项目整合了量化交易、算法交易和情感分析等模块，支持股票和加密货币市场。通过多代理协作架"
+    },
+    {
+      "id": "warpdot-dev/composio",
+      "title": "composio",
+      "slug": "warpdot-dev-composio",
+      "url": "https://github.com/warpdot-dev/composio",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-warpdot-dev-composio.md",
+      "relevance_score": 9.0,
+      "tags": ["sdk", "ai-agents", "mcp", "langchain", "typescript", "python", "integrations", "developer-tools"],
+      "summary": "Composio 是一个面向 AI 代理的开发者 SDK，支持 TypeScript 和 Python。项目提供了与 Anthropic、OpenAI、LangChain、LlamaIndex、Vercel AI 等主流框架的集成能力，支持 Model"
+    },
+    {
+      "id": "endless-sky-team/ai-trading-agent",
+      "title": "ai-trading-agent",
+      "slug": "endless-sky-team-ai-trading-agent",
+      "url": "https://github.com/endless-sky-team/ai-trading-agent",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-endless-sky-team-ai-trading-agent.md",
+      "relevance_score": 7.0,
+      "tags": ["crypto-trading", "trading-bot", "llm", "typescript", "react", "openrouter", "quantitative"],
+      "summary": "这是一个基于大语言模型的加密货币交易机器人项目，使用 TypeScript 和 React 构建。项目支持比特币、以太坊等主流加密货币的永续合约交易，集成了 OpenRouter 和 Lighter 等"
+    },
+    {
+      "id": "Alfredo7777777/claude-design-agents-toolkit",
+      "title": "claude-design-agents-toolkit",
+      "slug": "alfredo7777777-claude-design-agents-toolkit",
+      "url": "https://github.com/Alfredo7777777/claude-design-agents-toolkit",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-alfredo7777777-claude-design-agents-toolkit.md",
+      "relevance_score": 8.0,
+      "tags": ["claude-code", "design-tools", "plugins", "ui-automation", "design-to-code", "developer-productivity"],
+      "summary": "这是一个面向 Claude Code 的 AI 设计套件和插件集合，提供免费的 design-to-code 工作流支持。项目包含多种插件、Hooks 和子代理配置，帮助开发者在使用 Claude Code 时实现"
+    },
+    {
+      "id": "bearrymuse/GPT-Image-2-Driven-Prompt-Engine",
+      "title": "GPT-Image-2-Driven-Prompt-Engine",
+      "slug": "bearrymuse-gpt-image-2-driven-prompt-engine",
+      "url": "https://github.com/bearrymuse/GPT-Image-2-Driven-Prompt-Engine",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-bearrymuse-gpt-image-2-driven-prompt-engine.md",
+      "relevance_score": 7.5,
+      "tags": ["gpt-image-2", "prompt-engineering", "image-generation", "openai", "education", "text-to-image"],
+      "summary": "这是一个针对 GPT-Image-2 模型的提示工程大师课程和生成指南项目。项目专注于 OpenAI 最新图像生成和编辑模型的提示词优化，提供系统性的文本到图像 prompt 编写策略和高"
+    },
+    {
+      "id": "IKingBarou/Zeroclaw-Plugin-Hub",
+      "title": "Zeroclaw-Plugin-Hub",
+      "slug": "ikingbarou-zeroclaw-plugin-hub",
+      "url": "https://github.com/IKingBarou/Zeroclaw-Plugin-Hub",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-ikingbarou-zeroclaw-plugin-hub.md",
+      "relevance_score": 8.5,
+      "tags": ["claude-code", "mcp", "router", "sdk", "agentic-cli", "developer-tools", "plugin-hub"],
+      "summary": "ZeroClaw Plugin Hub 是一个面向 Claude Code 的多 MCP 路由器和 SDK 工具包。项目提供了 Agentic CLI 的扩展架构，支持多个 Model Context Protocol 服务器的动态路由和集成。它帮"
+    },
+    {
+      "id": "99xAgency/GodModeSkill",
+      "title": "GodModeSkill",
+      "slug": "99xagency-godmodeskill",
+      "url": "https://github.com/99xAgency/GodModeSkill",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-99xagency-godmodeskill.md",
+      "relevance_score": 9.0,
+      "tags": ["claude-code", "multi-llm", "code-review", "workflow", "quality-assurance", "agent-skills"],
+      "summary": "GodModeSkill 是一个为 Claude Code 设计的多 LLM 交叉评审工作流工具。它通过 /work 命令协调计划、实现和 Bug 修复三个阶段，并引入三个不同模型家族的投票机制作为每个阶"
+    },
+    {
+      "id": "nateherkai/AIS-OS",
+      "title": "AIS-OS",
+      "slug": "nateherkai-ais-os",
+      "url": "https://github.com/nateherkai/AIS-OS",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-nateherkai-ais-os.md",
+      "relevance_score": 7.5,
+      "tags": ["claude-code", "ai-os", "developer-workflow", "skill-kit", "productivity", "framework"],
+      "summary": "AIS-OS 是一个专为 Claude Code 设计的 AI 操作系统入门套件，包含三个核心技能（/onboard、/audit、/level-up）和 3Ms 框架。项目作为 AIOS 大师课程的配套工具，帮助开发者和"
+    },
+    {
+      "id": "mrslimslim/gpt-image-canvas",
+      "title": "gpt-image-canvas",
+      "slug": "mrslimslim-gpt-image-canvas",
+      "url": "https://github.com/mrslimslim/gpt-image-canvas",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-mrslimslim-gpt-image-canvas.md",
+      "relevance_score": 7.0,
+      "tags": ["ai-canvas", "tldraw", "image-generation", "typescript", "local-ai", "creative-tools"],
+      "summary": "这是一个基于 tldraw 构建的本地专业 AI 画布工具，使用 TypeScript 开发。项目将 GPT 图像生成能力与无限画布交互界面相结合，支持在本地环境中进行 AI 辅助的视觉创作和图"
+    }
+  ]
+}
