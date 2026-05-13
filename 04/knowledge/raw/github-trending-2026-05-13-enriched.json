@@ -1,0 +1,261 @@
+{
+  "date": "2026-05-13",
+  "source": "tech-summary",
+  "analyzed_at": "2026-05-13T14:00:00Z",
+  "trends": {
+    "common_themes": [
+      "Agent Skills 生态：多个项目围绕 Claude Code/Codex 的 Skill/MCP 插件体系构建，包括 Mercury Skills、KStack、Gread、OpenSquilla，表明 Agent 技能化已成为主流开发范式",
+      "LLM 基础设施效率：TokenSpeed（推理加速）、LLMix（调用层优化）、Whale（前缀缓存优化）、OpenSquilla（Token 高效路由）都在解决 LLM 调用的成本和延迟问题",
+      "终端型 Agent 工具链：Whale、KStack、Gread 等项目直接面向终端编码场景，打造 CLI-first 的 Agent 工作流",
+      "AI 隐私与安全：MemPrivacy 解决 Agent 记忆的隐私泄露，Codex RedTeam 面向安全攻防，两者从不同角度应对 AI 系统的安全挑战"
+    ],
+    "emerging_concepts": [
+      "可逆伪名化（Reversible Pseudonymization）：MemPrivacy 用类型化占位符替代敏感信息并保留语义角色，是 Agent 记忆隐私保护的新范式",
+      "Token 高效路由（Token-Efficient Routing）：OpenSquilla 的 SquillaRouter 用 LightGBM+ONNX 本地分类器对每轮对话分级路由，用最便宜的模型完成简单任务",
+      "SKILL.md 通用技能格式：Mercury Skills、KStack 等采用统一的 SKILL.md 格式定义 Agent 技能，正在成为跨 Agent 平台的技能交换标准",
+      "Edge-Cloud Agent 隐私架构：将隐私检测放在边缘设备、推理放在云端、恢复再回到本地的三层架构，正在成为 Agent 系统的标准隐私模式"
+    ]
+  },
+  "items": [
+    {
+      "id": "lightseekorg/tokenspeed",
+      "full_name": "lightseekorg/tokenspeed",
+      "summary": "TokenSpeed — 面向 Agent 工作负载的极速 LLM 推理引擎，local-SPMD 编译器加 Blackwell MLA 内核，性能对标 TensorRT-LLM",
+      "highlights": [
+        "采用 local-SPMD 设计加静态编译器，从模块边界注解自动生成集合通信，用户无需手写并行逻辑",
+        "C++ 控制面与 Python 执行面分离，请求生命周期和 KV cache 所有权编码为有限状态机，编译期类型系统保证安全复用",
+        "内置 Blackwell 平台上最快的 MLA（Multi-head Latent Attention）实现之一，Kimi K2.5 在 B200 上的 Pareto 曲线超越 TensorRT-LLM"
+      ],
+      "score": 9,
+      "score_reason": "在 LLM 推理引擎领域实现了架构级创新（local-SPMD + 编译期安全 KV 复用），且在真实 agentic 工作负载上展示超越 TensorRT-LLM 的性能，对 Agent 部署成本有直接且显著的影响",
+      "tags": ["llm-inference", "gpu-kernel", "tensorrt", "blackwell", "agentic-workload"],
+      "html_url": "https://github.com/lightseekorg/tokenspeed",
+      "language": "Python",
+      "stargazers_count": 993
+    },
+    {
+      "id": "opensquilla/opensquilla",
+      "full_name": "opensquilla/opensquilla",
+      "summary": "OpenSquilla — Token 高效型 Agent，本地 SquillaRouter 按四级路由选模型，同等预算下 PinchBench 得分接近 Claude Opus 但成本仅 1/9",
+      "highlights": [
+        "SquillaRouter 采用 LightGBM + ONNX BGE 分类器在本地设备上做混合特征路由，Prompt 不离设备即可决策模型层级（T0-T3）",
+        "四级认知记忆架构（工作记忆→情景记忆→语义记忆→原始记忆）模拟人类认知，配合 Dream 整合机制自动合并碎片化经验",
+        "PinchBench 1.2.1 测试：平均得分 0.9251 模型路由组合，总成本 $0.688，对比 Claude Opus 单模型得分 0.9255 但成本 $6.233"
+      ],
+      "score": 8,
+      "score_reason": "用本地分类器实现 Token 高效路由是解决 Agent 成本痛点的务实方案，四级记忆和 Dream 整合机制有设计创新，但当前仍为预览版（0.1），生产就绪度待验证",
+      "tags": ["agent-framework", "token-efficient", "model-routing", "cognitive-memory", "mcp"],
+      "html_url": "https://github.com/opensquilla/opensquilla",
+      "language": "Python",
+      "stargazers_count": 304
+    },
+    {
+      "id": "kerlos/pordee",
+      "full_name": "kerlos/pordee",
+      "summary": "Pordee — Claude Code 泰语插件，通过去冗余词和压缩表达将泰语输出 Token 减少 60-75%，保留技术准确性",
+      "highlights": [
+        "两级压缩模式（Lite 去礼貌词/filler，Full 进一步去粒子/名词化）实测泰语 Token 节省 54-84%",
+        "自动检测安全警告、不可逆命令（DROP TABLE、rm -rf）等危险场景时暂停压缩，避免压缩导致歧义",
+        "Hook 机制注入 Claude Code 会话，支持 /pordee-stats 查看实时节省统计和会话级累计数据"
+      ],
+      "score": 5,
+      "score_reason": "泰语场景的 Token 压缩思路有启发性，但项目仅支持 Claude Code 且仅面向泰语，适用范围非常狭窄，本质是提示词工程而非技术突破",
+      "tags": ["claude-code-plugin", "token-compression", "thai-language", "language-optimization"],
+      "html_url": "https://github.com/kerlos/pordee",
+      "language": "JavaScript",
+      "stargazers_count": 251
+    },
+    {
+      "id": "usewhale/whale",
+      "full_name": "usewhale/whale",
+      "summary": "Whale — 专为 DeepSeek 优化的终端编码 Agent，前缀缓存命中率达 90%，单任务成本约为 Claude Code 的 1/30",
+      "highlights": [
+        "围绕 DeepSeek prefix-cache 特性设计完整工具循环（追加式 turn、稳定上下文顺序、可恢复会话），实现 90% live prefix-cache 命中率",
+        "针对 DeepSeek tool-call 的常见畸形（JSON malformed、参数丢失、被转义等）做 schema 校验引导修复和拾荒路径，而非简单 replan",
+        "支持 /ask 只读模式、/plan 规划模式、MCP 外部工具、Skills 工作流复用和会话恢复（whale resume）"
+      ],
+      "score": 8,
+      "score_reason": "DeepSeek-only 的策略使 Whale 能够深度适配前缀缓存和 tool-call 特性，在成本和缓存效率上实现显著优势，是目前 DeepSeek 生态中最精细的编码 Agent 之一",
+      "tags": ["coding-agent", "deepseek", "terminal", "prefix-cache", "mcp"],
+      "html_url": "https://github.com/usewhale/whale",
+      "language": "Go",
+      "stargazers_count": 113
+    },
+    {
+      "id": "cosmicstack-labs/mercury-agent-skills",
+      "full_name": "cosmicstack-labs/mercury-agent-skills",
+      "summary": "Mercury Agent Skills — 131+ 可复用 Agent 技能库，标准化 SKILL.md 格式兼容 Claude Code、Codex、Cursor 等主流 Agent",
+      "highlights": [
+        "131+ 技能覆盖 20 个类别（开发、DevOps、AI/ML、安全、产品、营销等），每个技能遵循标准 YAML frontmatter + Markdown 格式",
+        "跨 Agent 兼容：同一技能文件可放入 .claude/skills/、.codex/skills/、.cursor/skills/ 等目录即用",
+        "提供 npx 一键安装和分类目录结构，支持技能的组合式使用"
+      ],
+      "score": 6,
+      "score_reason": "作为技能内容库规模可观，但本质是 SKILL.md 文件的策展而非技术突破，其价值在于标准化格式和覆盖广度而非工程创新",
+      "tags": ["agent-skills", "skill-registry", "claude-code", "codex", "developer-tools"],
+      "html_url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
+      "language": "JavaScript",
+      "stargazers_count": 103
+    },
+    {
+      "id": "ndcorder/outputguard",
+      "full_name": "ndcorder/outputguard",
+      "summary": "OutputGuard — LLM 结构化输出验证修复库，13 种 JSON 修复策略加 Schema 校验，让 Agent 输出更可靠",
+      "highlights": [
+        "内置 13 种 JSON 畸形修复策略（如 null 替代缺失字段、数组字符串化还原、尾逗号修复等），覆盖 LLM 输出的常见错误模式",
+        "支持 JSON Schema 校验与 repair-then-retry 流程：先修复再校验，校验失败则通过 retry-with-feedback 提示 LLM 重新生成",
+        "兼容 OpenAI、Anthropic 等主流 LLM 提供商的输出格式"
+      ],
+      "score": 7,
+      "score_reason": "解决了 LLM Agent 开发中结构化输出不可靠的普遍痛点，13 种修复策略和 Schema 校验闭环是务实且可直接投入生产的工程方案",
+      "tags": ["structured-output", "json-repair", "llm-validation", "developer-tools", "schema-validation"],
+      "html_url": "https://github.com/ndcorder/outputguard",
+      "language": "Python",
+      "stargazers_count": 79
+    },
+    {
+      "id": "kubetail-org/kstack",
+      "full_name": "kubetail-org/kstack",
+      "summary": "KStack — Claude Code 的 K8s 运维技能包，9 个技能覆盖集群监控、故障排查、安全/网络/成本审计，支持多 Agent 平台",
+      "highlights": [
+        "9 个结构化技能涵盖 K8s 核心运维场景：cluster-status（健康快照）、investigate（根因分析）、logs（AI 驱动日志检索）、4 类审计（安全/网络/成本/过时组件）",
+        "每个技能将 K8s API 数据获取与 kubectl/Helm/Trivy 等工具结合，在 Agent 侧本地做聚合和排序，避免向 LLM 传输原始数据浪费 Token",
+        "支持 Claude、Codex、OpenCode、Cursor 等多 Agent 平台，全局或项目级安装均可，遵循 SKILL.md 标准格式"
+      ],
+      "score": 7,
+      "score_reason": "将 K8s 运维经验系统化为 Agent 技能，设计精细（局部缓存、jq 处理、安全标志），可直接用于生产环境 K8s 日常运维",
+      "tags": ["kubernetes", "claude-code-skills", "devops", "monitoring", "troubleshooting"],
+      "html_url": "https://github.com/kubetail-org/kstack",
+      "language": "Shell",
+      "stargazers_count": 73
+    },
+    {
+      "id": "chAng-L19/codex-redteam-mode",
+      "full_name": "chAng-L19/codex-redteam-mode",
+      "summary": "Codex RedTeam Mode — 为 AI Codex 注入红队攻击思维的按需模式，默认正常、显式激活才启用进攻路由",
+      "highlights": [
+        "采用 phase → method → router → leaf 分层路由架构，将攻击域分类为 web、ad、postex、reverse、code-audit、payload、evasion 七类",
+        "默认正常模式不注入任何攻击性提示，只有显式 /redteam on 才激活，会话隔离确保不同会话模式独立",
+        "包含结构化编排层（recon → strategy → exploit-dev → review → reporting）和输出审查门控"
+      ],
+      "score": 5,
+      "score_reason": "红队模式的 opt-in 设计思路正确，但本质是提示词工程和路由编排，缺乏实际的攻击工具或 RAG 知识库，价值取决于外部 MCP/工具的接入深度",
+      "tags": ["red-team", "security-testing", "codex-plugin", "prompt-engineering", "penetration-testing"],
+      "html_url": "https://github.com/chAng-L19/codex-redteam-mode",
+      "language": "Python",
+      "stargazers_count": 66
+    },
+    {
+      "id": "NitroRCr/gread",
+      "full_name": "NitroRCr/gread",
+      "summary": "Gread — Agent 技能插件，让 AI Agent 一键获取所有公开 GitHub 仓库的源码和文档，同时提供 Skill 和 MCP 两种接入方式",
+      "highlights": [
+        "同时提供 Skill（SKILL.md）和 MCP（streamable HTTP）两种接入方式，覆盖编码 Agent 和聊天应用两类使用场景",
+        "自动识别文档仓库并在访问主仓库时一并提供，减少 Agent 多次请求的上下文碎片",
+        "提供托管 API 端点 https://api.gread.dev/mcp，无需本地部署即可使用 MCP 模式"
+      ],
+      "score": 6,
+      "score_reason": "解决了 Agent 访问开源代码的便利性问题，双模式接入设计考虑周全，但功能本质上是 GitHub API 的封装，技术门槛有限",
+      "tags": ["agent-skill", "mcp", "github", "code-access", "developer-tools"],
+      "html_url": "https://github.com/NitroRCr/gread",
+      "language": "TypeScript",
+      "stargazers_count": 45
+    },
+    {
+      "id": "sanieldoe/companions",
+      "full_name": "sanieldoe/companions",
+      "summary": "Companions — 自托管四合一 AI 助手套件（日记/导师/画布/知识库），共享 Markdown Vault 架构，完全本地化",
+      "highlights": [
+        "四个专职 Agent（Tracker 日记反思、Sensei 渐进式导师、Shapeshifter 创意画布、Keeper 个人知识库）共享同一套 Markdown 文件 Vault，跨 Agent 上下文流通",
+        "Vault 纯 Markdown 文件存储于本地磁盘，无数据库依赖，无供应商锁定，可用任何编辑器直接查看和编辑",
+        "支持 Anthropic、OpenAI 和本地模型（Ollama），提供 Android APK 和 Web 两种客户端，Tailscale 远程访问"
+      ],
+      "score": 5,
+      "score_reason": "四位一体 Agent 协作和共享 Vault 的设计理念有启发性，但项目刚起步（v1），功能成熟度和生态完善度有限，更适合个人实验而非团队生产使用",
+      "tags": ["self-hosted", "multi-agent", "personal-knowledge", "markdown-vault", "local-first"],
+      "html_url": "https://github.com/sanieldoe/companions",
+      "language": "TypeScript",
+      "stargazers_count": 43
+    },
+    {
+      "id": "MemTensor/MemPrivacy",
+      "full_name": "MemTensor/MemPrivacy",
+      "summary": "MemPrivacy — 边缘-云端 Agent 记忆隐私框架，本地可逆伪名化替换敏感信息，云侧仅见类型化占位符，F1 达 85.97%",
+      "highlights": [
+        "提出 PL1-PL4 四级隐私分类体系，用户可配置保护阈值（如仅保护 PL4 凭据 vs 保护 PL2+ 个人信息），在隐私保护强度和个性化效用之间做精准权衡",
+        "采用可逆伪名化而非简单掩码：将 '160/110' 替换为 <Health_Info_1> 而非 ***，保留语义角色使云端推理和记忆检索仍有效，准确率仅下降 0.71%-1.60%",
+        "在 Mem0、LangMem、Memobase 三大记忆系统上完成评测，MemPrivacy-4B-RL 模型 F1 分别达 85.97%（MemPrivacy-Bench）和 94.48%（PersonaMem-v2），超越 GPT-5.2 等通用 LLM"
+      ],
+      "score": 8,
+      "score_reason": "用可逆类型化伪名化替代简单掩码是 Agent 记忆隐私保护的重要范式进步，在三大记忆系统上的评测证明实用性强且效用损失极小（<1.6%），有 arXiv 论文支撑",
+      "tags": ["privacy-preserving", "agent-memory", "pseudonymization", "edge-cloud", "llm-evaluation"],
+      "html_url": "https://github.com/MemTensor/MemPrivacy",
+      "language": "Python",
+      "stargazers_count": 38
+    },
+    {
+      "id": "sno-ai/llmix",
+      "full_name": "sno-ai/llmix",
+      "summary": "LLMix — 生产级 LLM 调用中间层，Python/TypeScript/Rust 三端一致，提供缓存、断路器、密钥轮换和模型热切换",
+      "highlights": [
+        "Python/TypeScript/Rust 三语言 API 一致，同一套 MDA 配置文件和注册表快照可跨语言服务共享，解决了多语言微服务中 LLM 配置碎片化问题",
+        "响应缓存（L1 内存 + 可选 Redis L2）、断路器（按 Provider 作用域）、Singleflight（合并相同并发请求）、AIMD 自适应并发信号量四层弹性机制",
+        "MDA 配置驱动：模型从硬编码字符串变为可发布/热加载的配置数据，支持注册表快照的不可变发布和验证钩子签名"
+      ],
+      "score": 7,
+      "score_reason": "三语言一致的 LLM 调用层填补了多语言微服务的基础设施空白，MDA 配置驱动和四层弹性机制是面向生产环境设计的成熟工程方案",
+      "tags": ["llm-infrastructure", "circuit-breaker", "model-routing", "config-driven", "multi-language"],
+      "html_url": "https://github.com/sno-ai/llmix",
+      "language": "Python",
+      "stargazers_count": 30
+    },
+    {
+      "id": "baseclaw/weclaws",
+      "full_name": "baseclaw/weclaws",
+      "summary": "WeClaws — 多用户微信 AI 助理管理面板，Docker 一键部署，按用户隔离沙盒，支持 MCP/Skills/定时任务",
+      "highlights": [
+        "采用意图-执行分离架构：Web 只写入持久化运行意图（SQLite），Supervisor 持有运行时，FastAgent CLI 执行智能体，三层解耦避免状态不一致",
+        "按用户分配远程沙盒进程池（@fastagent/sandbox-runtime），不同用户的工具执行环境相互隔离，降低账号和文件交叉影响风险",
+        "托管技能同步机制：从 manifest.json 同步到每个机器人实例的 data/skills 目录，支持手动触发同步，不覆盖用户自管技能"
+      ],
+      "score": 6,
+      "score_reason": "架构设计合理（意图-执行分离、用户沙盒隔离），解决了微信机器人多人运维的实际痛点，但项目限于微信生态，通用性受限",
+      "tags": ["wechat-bot", "multi-user", "sandbox-isolation", "docker-deploy", "agent-management"],
+      "html_url": "https://github.com/baseclaw/weclaws",
+      "language": "TypeScript",
+      "stargazers_count": 25
+    },
+    {
+      "id": "void5tar/Curio",
+      "full_name": "void5tar/Curio",
+      "summary": "Curio — Chrome 侧边栏浏览器 Agent，支持页面导航、DOM 读取、元素操作和 JS 执行，兼容 OpenAI/Anthropic API",
+      "highlights": [
+        "实现完整的浏览器 Agent 工具链：navigate、read_dom（文本/HTML/大纲三种模式）、query（CSS 选择器）、click、type、eval_js 六个核心操作",
+        "eval_js 支持 MAIN world 注入，可访问页面全局变量和框架内部状态，适用于逆向分析场景（如 hook fetch/XHR）",
+        "Side Panel + Service Worker + Content Script 三层 Chrome 扩展架构，Service Worker 管理流式 LLM 调用和工具分发，Content Script 承担 DOM 操作"
+      ],
+      "score": 6,
+      "score_reason": "浏览器 Agent 的工具链设计完整，MAIN world 注入是技术亮点，但同类产品较多（browser-use、LaVague 等），创新性一般，更适合作为轻量级浏览器自动化入门工具",
+      "tags": ["browser-agent", "chrome-extension", "web-automation", "dom-manipulation", "side-panel"],
+      "html_url": "https://github.com/void5tar/Curio",
+      "language": "TypeScript",
+      "stargazers_count": 24
+    },
+    {
+      "id": "orzcls/PersonaLingo",
+      "full_name": "orzcls/PersonaLingo",
+      "summary": "PersonaLingo — AI 驱动的 IELTS 语料精炼工具，7 阶段蒸馏管线加 QMD-RAG 检索，支持零后端 Agent 技能和完整后端双模式",
+      "highlights": [
+        "QMD（Query-Match-Decide）三层检索架构：查询扩展层（语义扩展+同义词回退）→ 双通道匹配层（BM25+TF-IDF+RRF 融合）→ LLM 重排层，不依赖向量数据库",
+        "双模式交付：install-only 模式（npx 一键安装到任意 Agent，零后端依赖）和 runnable 模式（FastAPI 后端 + Vue 前端 + SQLite 持久化），适应不同使用场景",
+        "7 阶段蒸馏管线（深度研究→能力框架→人设→锚点故事→话题桥梁→词汇升级→模式模板），产出 JSON Schema 校验的 corpus.json"
+      ],
+      "score": 4,
+      "score_reason": "QMD-RAG 和 7 阶段蒸馏管线设计有一定参考价值，但项目极度垂直于 IELTS 口语语料生成，适用场景非常狭窄，对 AI/Agent 领域的直接贡献有限",
+      "tags": ["ielts", "rag", "distillation-pipeline", "agent-skill", "personalization"],
+      "html_url": "https://github.com/orzcls/PersonaLingo",
+      "language": "Python",
+      "stargazers_count": 24
+    }
+  ]
+}

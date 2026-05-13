@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-12",
+  "source": "tech-summary",
+  "analyzed_at": "2026-05-12T12:30:00Z",
+  "trends": {
+    "common_themes": [
+      "Agent 记忆与身份 — 多项目聚焦 Agent 记忆系统（MemPrivacy, ctxr-dev/memory, mddb-ai）和人格层（GoblinOS），记忆与身份是 Agent 持久化的核心缺失",
+      "Token 效率优化 — OpenSquilla、unity-scanner、llmix 均关注 Token 消耗优化，反映 Agent 工作流中 Token 成本是实际生产痛点",
+      "MCP 协议集成 — 大量项目集成 MCP 协议（OpenSquilla, understand-quickly, ctxr-dev/memory, mddb-ai），MCP 正在成为 Agent 工具调用的事实标准"
+    ],
+    "emerging_concepts": [
+      "Agent 运行时检测 — agenthint 提出 CLI 自动适配 Agent 输出格式的范式，Agent 与 CLI 的交互规范尚属空白",
+      "知识图谱注册中心 — understand-quickly 将 Awesome List 演进为 schema 验证的结构化知识注册，为编码 Agent 提供可验证的代码理解能力",
+      "MDA Presets 模型热切换 — llmix 的配置驱动模型切换机制，通过预设实现多供应商模型的无缝切换"
+    ]
+  },
+  "items": [
+    {
+      "id": "ChristianJR19/GoblinOS",
+      "full_name": "ChristianJR19/GoblinOS",
+      "summary": "GoblinOS — 为 Hermes Agent 添加持久化情绪驱动人格层，赋予连续性个性",
+      "highlights": [
+        "持久化情绪系统，Agent 状态跨会话保持而非单次对话重置",
+        "替换默认 Agent 身份机制，将人格与能力层解耦设计"
+      ],
+      "score": 6,
+      "score_reason": "人格层概念新颖但适用范围有限，主要服务于 Hermes Agent 框架，通用性不足",
+      "tags": ["agent-persona", "mood-driven", "hermes-agent", "identity-layer"],
+      "html_url": "https://github.com/ChristianJR19/GoblinOS",
+      "language": "Python",
+      "stargazers_count": 303
+    },
+    {
+      "id": "opensquilla/opensquilla",
+      "full_name": "opensquilla/opensquilla",
+      "summary": "OpenSquilla — 同等 Token 预算实现更高智能密度的 Agent 框架，集成 MCP",
+      "highlights": [
+        "Token 效率优化策略，同等预算下提升 Agent 智能密度",
+        "集成 MCP 协议与技能系统，支持标准化工具调用",
+        "基于 OpenClaw 架构，内置记忆管理模块"
+      ],
+      "score": 8,
+      "score_reason": "直接解决 Agent Token 成本痛点，MCP 集成使框架具备生产级工具调用能力",
+      "tags": ["agent-framework", "token-efficiency", "mcp", "skills-system", "memory"],
+      "html_url": "https://github.com/opensquilla/opensquilla",
+      "language": "Python",
+      "stargazers_count": 236
+    },
+    {
+      "id": "sno-ai/llmix",
+      "full_name": "sno-ai/llmix",
+      "summary": "llmix — 生产级 LLM 调用层，模型热切换+缓存断路器密钥轮换，三语言一致",
+      "highlights": [
+        "MDA presets 实现模型热切换，兼容 OpenAI/Anthropic/AI SDK/LiteLLM 多供应商",
+        "内置断路器、singleflight、缓存、密钥轮换等生产级可靠性模式",
+        "Python/TypeScript/Rust 三端 API 对等实现，降低跨语言接入成本"
+      ],
+      "score": 9,
+      "score_reason": "填补 LLM 调用层生产化空白，三语言对等实现大幅降低多技术栈接入门槛，可靠性模式覆盖完整",
+      "tags": ["llm-orchestration", "production-infra", "model-switching", "circuit-breaker", "multi-language"],
+      "html_url": "https://github.com/sno-ai/llmix",
+      "language": "Python",
+      "stargazers_count": 30
+    },
+    {
+      "id": "MemTensor/MemPrivacy",
+      "full_name": "MemTensor/MemPrivacy",
+      "summary": "MemPrivacy — 边缘-云端 Agent 隐私保护记忆框架，结合 Qwen3 检测敏感信息",
+      "highlights": [
+        "边缘-云端协同架构，隐私检测在边缘侧完成避免数据外泄",
+        "结合 Qwen3 进行敏感信息识别，兼容 OpenAI 隐私过滤接口",
+        "兼容 mem0/LangMem 记忆系统接口，可即插即用"
+      ],
+      "score": 8,
+      "score_reason": "隐私保护是 Agent 记忆系统的关键缺失环节，边缘-云端架构可直接投入生产场景",
+      "tags": ["privacy-preserving", "agent-memory", "edge-cloud", "qwen3", "memory-management"],
+      "html_url": "https://github.com/MemTensor/MemPrivacy",
+      "language": "Python",
+      "stargazers_count": 28
+    },
+    {
+      "id": "looptech-ai/understand-quickly",
+      "full_name": "looptech-ai/understand-quickly",
+      "summary": "understand-quickly — 代码知识图谱注册中心，为编码 Agent 提供结构化理解力",
+      "highlights": [
+        "Schema 验证的知识图谱内容，比 Awesome List 提供可验证的结构化信息",
+        "兼容 Claude Code/Cursor/Codex 等主流编码 Agent 工具链"
+      ],
+      "score": 7,
+      "score_reason": "代码知识图谱是提升编码 Agent 理解力的有效路径，但注册中心生态尚处早期",
+      "tags": ["code-knowledge-graph", "agent-tools", "schema-validated", "mcp", "registry"],
+      "html_url": "https://github.com/looptech-ai/understand-quickly",
+      "language": "JavaScript",
+      "stargazers_count": 20
+    },
+    {
+      "id": "orzcls/PersonaLingo",
+      "full_name": "orzcls/PersonaLingo",
+      "summary": "PersonaLingo — AI IELTS 语料精炼，零后端技能+QMD-RAG 双模式",
+      "highlights": [
+        "7 阶段流水线生成 schema 验证的语料输出",
+        "零后端 install-only 技能模式，无需部署服务即可使用"
+      ],
+      "score": 5,
+      "score_reason": "个性化语料精炼方法有参考价值，但适用场景窄（仅 IELTS），通用性有限",
+      "tags": ["corpus-distillation", "qmd-rag", "agent-skill", "ielts", "personalization"],
+      "html_url": "https://github.com/orzcls/PersonaLingo",
+      "language": "Python",
+      "stargazers_count": 19
+    },
+    {
+      "id": "youngwoocho02/unity-scanner",
+      "full_name": "youngwoocho02/unity-scanner",
+      "summary": "unity-scanner — Agent 专用 Unity 资源扫描器，精简输出节省Token",
+      "highlights": [
+        "针对 Unity 资源结构输出精简描述，降低 Agent Token 开销",
+        "Go 语言实现，适合 CLI 管道式集成"
+      ],
+      "score": 5,
+      "score_reason": "解决 Unity 资源场景 Token 消耗问题，但仅限 Unity 生态，适用范围窄",
+      "tags": ["token-saving", "unity", "asset-scanner", "cli", "agent-tools"],
+      "html_url": "https://github.com/youngwoocho02/unity-scanner",
+      "language": "Go",
+      "stargazers_count": 14
+    },
+    {
+      "id": "ctxr-dev/memory",
+      "full_name": "ctxr-dev/memory",
+      "summary": "ctxr/memory — AI 编码 Agent 可检查本地项目记忆系统，支持 MCP 与 RAG",
+      "highlights": [
+        "本地化存储 + 可检查设计，Agent 可自检记忆内容而非黑盒",
+        "集成 MCP 协议与 RAG，兼容 Dify 等编排平台"
+      ],
+      "score": 7,
+      "score_reason": "本地可检查记忆解决 Agent 上下文丢失痛点，MCP 集成提升互操作性",
+      "tags": ["local-memory", "mcp", "rag", "coding-agent", "inspectable"],
+      "html_url": "https://github.com/ctxr-dev/memory",
+      "language": "JavaScript",
+      "stargazers_count": 11
+    },
+    {
+      "id": "forjd/agenthint",
+      "full_name": "forjd/agenthint",
+      "summary": "agenthint — 检测 Agent 运行时环境，让 CLI 自动适配 Agent 友好输出",
+      "highlights": [
+        "运行时检测 Agent 环境，自动切换人可读/Agent 友好输出模式",
+        "多语言实现（Rust/Python/Node.js），可跨 npm/PyPI/crates.io 分发"
+      ],
+      "score": 7,
+      "score_reason": "解决 CLI 与 Agent 交互格式适配这一被忽视的痛点，轻量但实用性高",
+      "tags": ["runtime-detection", "cli", "agent-friendly", "multi-language", "developer-tools"],
+      "html_url": "https://github.com/forjd/agenthint",
+      "language": "Rust",
+      "stargazers_count": 7
+    },
+    {
+      "id": "puristajs/harness",
+      "full_name": "puristajs/harness",
+      "summary": "harness — TypeScript 构建的 AI Agent 开发框架，提供基础开发设施",
+      "highlights": [
+        "TypeScript 原生实现，面向前端/全栈开发者降低接入门槛",
+        "信息有限（topics 为空），功能边界与差异化特性不明确"
+      ],
+      "score": 4,
+      "score_reason": "项目信息不足，与同类 TypeScript Agent 框架相比差异化不明确，难以评估实际价值",
+      "tags": ["agent-framework", "typescript", "harness"],
+      "html_url": "https://github.com/puristajs/harness",
+      "language": "TypeScript",
+      "stargazers_count": 4
+    },
+    {
+      "id": "Marven11/LinHai",
+      "full_name": "Marven11/LinHai",
+      "summary": "LinHai — 多机控制编码/渗透 Agent，基于本地 Bash 执行面向安全研究",
+      "highlights": [
+        "多机远程控制能力，支持批量命令执行与协同操作",
+        "基于 Bash 的轻量执行模型，无需额外运行时依赖"
+      ],
+      "score": 6,
+      "score_reason": "多机控制在安全研究中有实用价值，但功能边界与安全风险需审慎评估",
+      "tags": ["multi-machine", "security-research", "bash-agent", "coding-agent", "hacking"],
+      "html_url": "https://github.com/Marven11/LinHai",
+      "language": "Python",
+      "stargazers_count": 4
+    },
+    {
+      "id": "DotHarness/dotcraft-unity",
+      "full_name": "DotHarness/dotcraft-unity",
+      "summary": "dotcraft-unity — DotCraft Agent Unity客户端，构建调试游戏世界",
+      "highlights": [
+        "Agent 驱动的游戏世界构建流程，将 AI 纳入游戏开发闭环",
+        "集成 ACP 协议实现 Agent 通信"
+      ],
+      "score": 4,
+      "score_reason": "依赖 DotCraft Agent 生态，作为客户端组件独立价值有限",
+      "tags": ["unity", "agent-client", "game-development", "acp"],
+      "html_url": "https://github.com/DotHarness/dotcraft-unity",
+      "language": "C#",
+      "stargazers_count": 4
+    },
+    {
+      "id": "haileyok/cc-discord",
+      "full_name": "haileyok/cc-discord",
+      "summary": "cc-discord — Claude Code Discord桥接，实时同步Agent输出",
+      "highlights": [
+        "Zellij 终端与 Discord 双通道输出，支持团队协作场景",
+        "专为 Claude Code 工作流设计，实现输出实时同步"
+      ],
+      "score": 5,
+      "score_reason": "解决 Claude Code 特定场景的输出同步需求，适用范围窄",
+      "tags": ["claude-code", "discord-bridge", "zellij", "agent-output", "integration"],
+      "html_url": "https://github.com/haileyok/cc-discord",
+      "language": "Python",
+      "stargazers_count": 3
+    },
+    {
+      "id": "ProfineAI/profine-cli",
+      "full_name": "ProfineAI/profine-cli",
+      "summary": "profine-cli — PyTorch GPU性能分析CLI，Agent自动生成优化重写",
+      "highlights": [
+        "真实 GPU 性能分析 + LLM Agent 自动优化重写，形成分析-优化闭环",
+        "量化加速效果，在长时间训练前验证改进收益"
+      ],
+      "score": 6,
+      "score_reason": "LLM + GPU Profiling 结合有新意，但项目极早期（2 stars），成熟度不足",
+      "tags": ["gpu-profiling", "pytorch", "llm-agent", "performance-optimization", "automated-optimization"],
+      "html_url": "https://github.com/ProfineAI/profine-cli",
+      "language": "Python",
+      "stargazers_count": 2
+    },
+    {
+      "id": "mddb-ai/mddb-ai",
+      "full_name": "mddb-ai/mddb-ai",
+      "summary": "mddb-ai — 基于 Markdown 的 Agent 长期记忆系统，人机可读可编辑",
+      "highlights": [
+        "Markdown-first 设计，记忆内容人机可读可编辑",
+        "集成 MCP 协议，兼容 Claude Code 工作流"
+      ],
+      "score": 6,
+      "score_reason": "Markdown 格式降低记忆系统使用门槛，但功能成熟度和与其他记忆方案的差异化不足",
+      "tags": ["markdown-memory", "long-term-memory", "mcp", "coding-agent", "claude-code"],
+      "html_url": "https://github.com/mddb-ai/mddb-ai",
+      "language": "Python",
+      "stargazers_count": 1
+    }
+  ]
+}

@@ -56,30 +56,3 @@
 
 {tags}
 ```
-
-
-帮我编写 hooks/validate.py 脚本，用于校验知识条目 JSON 文件：
-
-需求：
-1. 支持单文件和多文件（*.json格式）两种输入模式
-2. 校验json文件能够正确解析
-3. 必填字段使用 dict[str, type] 格式，同时校验字段存在性和类型：
-  repositories:  [
-    {
-      "id": str,
-      "full_name": str,
-      "summary": str,
-      "html_url": str,
-      "topics": list,
-      "stargazers_count": 
-    },
-    ...
-  ]
-4.  检查 collected_at 格式是否为 ISO标准时间
-5.  检查html_url格式（https://）
-6.  检查description最少 20 字、topics至少 1 个
-7.  检查 relevance_score 是否在 1-10 范围
-8.  命令行用法：uv run hooks/validate_json.py <json_file> [json_file2 ...]
-9.  校验通过 exit 0，失败 exit 1 + 错误列表 + 汇总统计
-
-编码规范：遵循 PEP 8，使用标准库，不依赖第三方库
