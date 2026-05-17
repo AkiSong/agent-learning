@@ -1,0 +1,26 @@
+{
+  "id": "f/prompts.chat",
+  "full_name": "f/prompts.chat",
+  "source": "github-trending",
+  "html_url": "https://github.com/f/prompts.chat",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "prompts.chat — 一个社区驱动的提示词分享与发现平台，自托管开源，拥有16万星标，是AI提示工程的重要资源库",
+  "highlights": [
+    "16万星标证明其巨大需求和影响力",
+    "免费开源并支持自托管，保护隐私",
+    "覆盖ChatGPT、Claude、Gemini等多种AI模型的提示词"
+  ],
+  "relevance_score": 8,
+  "score": 8,
+  "score_reason": "作为提示词集合和发现平台，解决了用户寻找高质量提示词的普遍痛点，但本身不是直接的生产级工具，更像资源目录，因此评分8分",
+  "tags": [
+    "prompts",
+    "chatgpt",
+    "awesome-list",
+    "prompt-engineering",
+    "open-source"
+  ],
+  "language": "HTML",
+  "stargazers_count": 162390,
+  "status": "published"
+}

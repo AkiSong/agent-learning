@@ -1,0 +1,26 @@
+{
+  "id": "forjd/agenthint",
+  "full_name": "forjd/agenthint",
+  "source": "github-trending",
+  "html_url": "https://github.com/forjd/agenthint",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "agenthint — 自动检测 CLI 运行环境是否为 AI Agent，并适配友好输出格式，解决 Agent 与命令行交互的格式适配痛点",
+  "highlights": [
+    "自动识别 Agent 运行时环境，无需手动配置",
+    "支持多语言输出适配，简化 Agent 对 CLI 结果的理解",
+    "Rust 实现，性能高效且易于集成到现有工具链"
+  ],
+  "relevance_score": 7,
+  "score": 7,
+  "score_reason": "项目概念新颖，针对 Agent-CLI 交互痛点有实用价值，但 Stars 较少，成熟度和生态待观察",
+  "tags": [
+    "agent-detection",
+    "cli-tools",
+    "developer-tools",
+    "rust",
+    "assistant-friendly"
+  ],
+  "language": "Rust",
+  "stargazers_count": 7,
+  "status": "published"
+}

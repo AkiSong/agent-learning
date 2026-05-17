@@ -1,0 +1,26 @@
+{
+  "id": "NousResearch/hermes-agent",
+  "full_name": "NousResearch/hermes-agent",
+  "source": "github-trending",
+  "html_url": "https://github.com/NousResearch/hermes-agent",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "NousResearch/hermes-agent — 一个基于 LLM 的 AI 代理框架，支持多模型集成并强调个性化成长，由 Nous Research 打造且社区关注度极高。",
+  "highlights": [
+    "支持 OpenAI、Anthropic 等多模型 API，灵活适配不同场景",
+    "由权威 AI 研究团队 Nous Research 开发，品牌背书强",
+    "社区活跃，拥有 15 万+ Stars，证明其广泛认可度"
+  ],
+  "relevance_score": 9,
+  "score": 9,
+  "score_reason": "项目由知名研究机构推出，聚焦 AI Agent 热门方向，高星数反映其生产级价值与社区信任；但具体功能与文档尚待深入了解，留有进一步提升空间。",
+  "tags": [
+    "ai",
+    "agent",
+    "python",
+    "open-source",
+    "llm"
+  ],
+  "language": "Python",
+  "stargazers_count": 153877,
+  "status": "published"
+}

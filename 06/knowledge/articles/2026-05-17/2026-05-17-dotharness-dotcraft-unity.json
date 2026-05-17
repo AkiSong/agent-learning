@@ -1,0 +1,26 @@
+{
+  "id": "DotHarness/dotcraft-unity",
+  "full_name": "DotHarness/dotcraft-unity",
+  "source": "github-trending",
+  "html_url": "https://github.com/DotHarness/dotcraft-unity",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "DotHarness/dotcraft-unity — 为AI Agent提供Unity游戏世界构建与调试客户端，适合研究Agent在游戏环境中的行为",
+  "highlights": [
+    "专注于Agent与Unity游戏世界的交互和调试",
+    "使用ACP（Agent Communication Protocol）可能支持标准化的Agent通信",
+    "结合Unity引擎提供可视化游戏环境，便于Agent训练和测试"
+  ],
+  "relevance_score": 5,
+  "score": 5,
+  "score_reason": "项目与AI Agent相关，但Stars少、社区活跃度低，成熟度有限，适用范围较窄",
+  "tags": [
+    "unity",
+    "agent-client",
+    "game-development",
+    "acp",
+    "simulation"
+  ],
+  "language": "C#",
+  "stargazers_count": 4,
+  "status": "published"
+}

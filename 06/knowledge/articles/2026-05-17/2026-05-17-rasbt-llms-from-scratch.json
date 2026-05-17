@@ -1,0 +1,26 @@
+{
+  "id": "rasbt/LLMs-from-scratch",
+  "full_name": "rasbt/LLMs-from-scratch",
+  "source": "github-trending",
+  "html_url": "https://github.com/rasbt/LLMs-from-scratch",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "rasbt/LLMs-from-scratch — 从零开始用PyTorch逐步实现ChatGPT类大语言模型，因其高星数和清晰的教学设计而备受关注",
+  "highlights": [
+    "逐步骤从零构建GPT核心组件（注意力机制、多头注意力、Transformer块等）",
+    "配套书籍与代码，便于系统学习",
+    "近10万星标，社区高度认可，教育资源丰富"
+  ],
+  "relevance_score": 8,
+  "score": 8,
+  "score_reason": "该项目是高质量的教育资源，解决了从零学习LLM的痛点，通用性强，但非生产级工具，因此评分为8",
+  "tags": [
+    "llm",
+    "pytorch",
+    "educational",
+    "transformer",
+    "from-scratch"
+  ],
+  "language": "Jupyter Notebook",
+  "stargazers_count": 94960,
+  "status": "published"
+}

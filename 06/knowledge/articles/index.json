@@ -1,0 +1,911 @@
+{
+  "updated_at": "2026-05-17T08:52:58Z",
+  "total_articles": 52,
+  "articles": [
+    {
+      "id": "sno-ai/llmix",
+      "title": "sno-ai/llmix",
+      "slug": "sno-ai-llmix",
+      "url": "https://github.com/sno-ai/llmix",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-sno-ai-llmix.json",
+      "relevance_score": 7,
+      "tags": [
+        "llm-orchestration",
+        "circuit-breaker",
+        "production-infra",
+        "python"
+      ],
+      "summary": "sno-ai/llmix — 生产级 LLM 调用层，提供模型热切换、缓存、断路器和密钥轮换功能，支持多语言一致，适合高可用场景"
+    },
+    {
+      "id": "opensquilla/opensquilla",
+      "title": "opensquilla/opensquilla",
+      "slug": "opensquilla-opensquilla",
+      "url": "https://github.com/opensquilla/opensquilla",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-opensquilla-opensquilla.json",
+      "relevance_score": 7,
+      "tags": [
+        "python",
+        "agent-framework",
+        "token-efficiency",
+        "mcp",
+        "memory"
+      ],
+      "summary": "OpenSquilla — 在有限 Token 预算下提升智能密度的 Agent 框架，通过集成 MCP 协议和技能/记忆系统优化效率，值得关注其解决 Token 成本痛点"
+    },
+    {
+      "id": "MemTensor/MemPrivacy",
+      "title": "MemTensor/MemPrivacy",
+      "slug": "memtensor-memprivacy",
+      "url": "https://github.com/MemTensor/MemPrivacy",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-memtensor-memprivacy.json",
+      "relevance_score": 6,
+      "tags": [
+        "privacy-preserving",
+        "agent-framework",
+        "edge-cloud",
+        "memory-management",
+        "llm-security"
+      ],
+      "summary": "MemPrivacy — 边缘-云端 Agent 隐私保护记忆框架，利用 Qwen3 检测敏感信息，保护 Agent 记忆中的隐私数据"
+    },
+    {
+      "id": "looptech-ai/understand-quickly",
+      "title": "looptech-ai/understand-quickly",
+      "slug": "looptech-ai-understand-quickly",
+      "url": "https://github.com/looptech-ai/understand-quickly",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-looptech-ai-understand-quickly.json",
+      "relevance_score": 6,
+      "tags": [
+        "code-knowledge-graph",
+        "agent-tools",
+        "mcp",
+        "registry",
+        "schema-validated"
+      ],
+      "summary": "understand-quickly — 代码知识图谱注册中心，为编码Agent提供结构化理解力，通过MCP协议和Schema验证实现Agent对代码的精准感知"
+    },
+    {
+      "id": "ctxr-dev/memory",
+      "title": "ctxr-dev/memory",
+      "slug": "ctxr-dev-memory",
+      "url": "https://github.com/ctxr-dev/memory",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-ctxr-dev-memory.json",
+      "relevance_score": 6,
+      "tags": [
+        "local-memory",
+        "mcp",
+        "rag",
+        "coding-agent"
+      ],
+      "summary": "ctxr/memory — 为AI编码代理提供可检查的本地项目记忆系统，支持MCP与RAG，有助于提升Agent对项目上下文的持久化理解"
+    },
+    {
+      "id": "forjd/agenthint",
+      "title": "forjd/agenthint",
+      "slug": "forjd-agenthint",
+      "url": "https://github.com/forjd/agenthint",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-forjd-agenthint.json",
+      "relevance_score": 7,
+      "tags": [
+        "agent-detection",
+        "cli-tools",
+        "developer-tools",
+        "rust",
+        "assistant-friendly"
+      ],
+      "summary": "agenthint — 自动检测 CLI 运行环境是否为 AI Agent，并适配友好输出格式，解决 Agent 与命令行交互的格式适配痛点"
+    },
+    {
+      "id": "willchen96/mike",
+      "title": "mike",
+      "slug": "willchen96-mike",
+      "url": "https://github.com/willchen96/mike",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-willchen96-mike.md",
+      "relevance_score": 8.0,
+      "tags": [
+        "legal-tech",
+        "ai-platform",
+        "typescript",
+        "open-source",
+        "document-automation"
+      ],
+      "summary": "Mike 是一个开源的 AI 法律平台，采用 TypeScript 构建。该项目致力于将人工智能技术引入法律领域，可能提供合同分析、法律文档自动化或合规检查等功能。"
+    },
+    {
+      "id": "mattpocock/dictionary-of-ai-coding",
+      "title": "dictionary-of-ai-coding",
+      "slug": "mattpocock-dictionary-of-ai-coding",
+      "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-mattpocock-dictionary-of-ai-coding.md",
+      "relevance_score": 7.5,
+      "tags": [
+        "education",
+        "ai-coding",
+        "glossary",
+        "typescript",
+        "developer-tools"
+      ],
+      "summary": "这是一个由知名 TypeScript 教育者 Matt Pocock 创建的 AI 编程术语词典项目。该项目用通俗易懂的英文解释 AI 编程领域的专业术语和行话，帮助开发者快速理解 AI 辅助编程中的概念。"
+    },
+    {
+      "id": "noonghunna/club-3090",
+      "title": "club-3090",
+      "slug": "noonghunna-club-3090",
+      "url": "https://github.com/noonghunna/club-3090",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-noonghunna-club-3090.md",
+      "relevance_score": 9.0,
+      "tags": [
+        "local-llm",
+        "rtx-3090",
+        "vllm",
+        "llama-cpp",
+        "sglang",
+        "deployment",
+        "community"
+      ],
+      "summary": "Club-3090 是一个面向 RTX 3090 显卡用户的社区驱动项目，提供在本地部署和运行大型语言模型的配置文件和最佳实践。项目支持 vLLM、llama.cpp、SGLang 等多个推理引擎，当前主"
+    },
+    {
+      "id": "Tommy-yw/RunbookHermes",
+      "title": "RunbookHermes",
+      "slug": "tommy-yw-runbookhermes",
+      "url": "https://github.com/Tommy-yw/RunbookHermes",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-tommy-yw-runbookhermes.md",
+      "relevance_score": 8.5,
+      "tags": [
+        "aiops",
+        "incident-response",
+        "automation",
+        "python",
+        "hermes",
+        "runbook",
+        "llm-agent"
+      ],
+      "summary": "RunbookHermes 是一个基于 Hermes 框架的 AIOps 智能运维代理，使用 Python 开发。该代理专注于证据驱动的故障响应，支持审批门控的自动修复和运行手册学习。它能够在 IT 运维"
+    },
+    {
+      "id": "tddworks/baguette",
+      "title": "baguette",
+      "slug": "tddworks-baguette",
+      "url": "https://github.com/tddworks/baguette",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-tddworks-baguette.md",
+      "relevance_score": 7.0,
+      "tags": [
+        "ios",
+        "simulator",
+        "swift",
+        "automation-testing",
+        "device-farm",
+        "streaming",
+        "headless"
+      ],
+      "summary": "Baguette 是一个用于 iOS 26 的无头模拟器管理器和设备农场工具，使用 Swift 编写。它支持主机端的输入注入功能，包括点击、滑动、多指手势模拟，以及 60fps 的屏幕串流。该"
+    },
+    {
+      "id": "skydoves/compose-performance-skills",
+      "title": "compose-performance-skills",
+      "slug": "skydoves-compose-performance-skills",
+      "url": "https://github.com/skydoves/compose-performance-skills",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-skydoves-compose-performance-skills.md",
+      "relevance_score": 8.0,
+      "tags": [
+        "android",
+        "jetpack-compose",
+        "performance",
+        "claude-code",
+        "agent-skills",
+        "kotlin",
+        "mobile"
+      ],
+      "summary": "这是一个精心策划的 Jetpack Compose 性能优化 Agent Skills 库，由知名 Android 开发者 skydoves 维护。项目收集了专门针对 Compose 性能问题的 AI 辅助技能，涵盖重组优化、状"
+    },
+    {
+      "id": "Julpygo/Claude-Code-AI-Design",
+      "title": "Claude-Code-AI-Design",
+      "slug": "julpygo-claude-code-ai-design",
+      "url": "https://github.com/Julpygo/Claude-Code-AI-Design",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-julpygo-claude-code-ai-design.md",
+      "relevance_score": 8.5,
+      "tags": [
+        "design-to-code",
+        "figma",
+        "claude-code",
+        "mcp",
+        "react",
+        "tailwind",
+        "ui-automation"
+      ],
+      "summary": "该项目是一个 Claude Code 的 AI 设计工具集成方案，支持将 Figma 设计直接转换为代码。项目提供 React 19 和 Tailwind v4 支持，包含 Model Context Protocol (MCP) 服务器设置、"
+    },
+    {
+      "id": "Senabayu08989/Stable-Diffusion-AI-Free",
+      "title": "Stable-Diffusion-AI-Free",
+      "slug": "senabayu08989-stable-diffusion-ai-free",
+      "url": "https://github.com/Senabayu08989/Stable-Diffusion-AI-Free",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-senabayu08989-stable-diffusion-ai-free.md",
+      "relevance_score": 8.0,
+      "tags": [
+        "stable-diffusion",
+        "image-generation",
+        "local-ai",
+        "flux",
+        "comfyui",
+        "controlnet",
+        "lora"
+      ],
+      "summary": "这是一个免费的 Stable Diffusion AI 图像生成器项目，支持本地部署和离线运行。项目涵盖 Flux 2、SDXL Turbo、ControlNet 等主流模型和技术，支持 LoRA 训练和实时视频生成。"
+    },
+    {
+      "id": "lukiIabs/trading-agents",
+      "title": "trading-agents",
+      "slug": "lukiilabs-trading-agents",
+      "url": "https://github.com/lukiIabs/trading-agents",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-lukiilabs-trading-agents.md",
+      "relevance_score": 7.5,
+      "tags": [
+        "trading",
+        "finance",
+        "multi-agent",
+        "llm",
+        "quantitative",
+        "crypto",
+        "sentiment-analysis"
+      ],
+      "summary": "TradingAgents 是一个基于大语言模型的多代理金融交易系统，使用 Python 开发。项目整合了量化交易、算法交易和情感分析等模块，支持股票和加密货币市场。通过多代理协作架"
+    },
+    {
+      "id": "warpdot-dev/composio",
+      "title": "composio",
+      "slug": "warpdot-dev-composio",
+      "url": "https://github.com/warpdot-dev/composio",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-warpdot-dev-composio.md",
+      "relevance_score": 9.0,
+      "tags": [
+        "sdk",
+        "ai-agents",
+        "mcp",
+        "langchain",
+        "typescript",
+        "python",
+        "integrations",
+        "developer-tools"
+      ],
+      "summary": "Composio 是一个面向 AI 代理的开发者 SDK，支持 TypeScript 和 Python。项目提供了与 Anthropic、OpenAI、LangChain、LlamaIndex、Vercel AI 等主流框架的集成能力，支持 Model"
+    },
+    {
+      "id": "endless-sky-team/ai-trading-agent",
+      "title": "ai-trading-agent",
+      "slug": "endless-sky-team-ai-trading-agent",
+      "url": "https://github.com/endless-sky-team/ai-trading-agent",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-endless-sky-team-ai-trading-agent.md",
+      "relevance_score": 7.0,
+      "tags": [
+        "crypto-trading",
+        "trading-bot",
+        "llm",
+        "typescript",
+        "react",
+        "openrouter",
+        "quantitative"
+      ],
+      "summary": "这是一个基于大语言模型的加密货币交易机器人项目，使用 TypeScript 和 React 构建。项目支持比特币、以太坊等主流加密货币的永续合约交易，集成了 OpenRouter 和 Lighter 等"
+    },
+    {
+      "id": "Alfredo7777777/claude-design-agents-toolkit",
+      "title": "claude-design-agents-toolkit",
+      "slug": "alfredo7777777-claude-design-agents-toolkit",
+      "url": "https://github.com/Alfredo7777777/claude-design-agents-toolkit",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-alfredo7777777-claude-design-agents-toolkit.md",
+      "relevance_score": 8.0,
+      "tags": [
+        "claude-code",
+        "design-tools",
+        "plugins",
+        "ui-automation",
+        "design-to-code",
+        "developer-productivity"
+      ],
+      "summary": "这是一个面向 Claude Code 的 AI 设计套件和插件集合，提供免费的 design-to-code 工作流支持。项目包含多种插件、Hooks 和子代理配置，帮助开发者在使用 Claude Code 时实现"
+    },
+    {
+      "id": "bearrymuse/GPT-Image-2-Driven-Prompt-Engine",
+      "title": "GPT-Image-2-Driven-Prompt-Engine",
+      "slug": "bearrymuse-gpt-image-2-driven-prompt-engine",
+      "url": "https://github.com/bearrymuse/GPT-Image-2-Driven-Prompt-Engine",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-bearrymuse-gpt-image-2-driven-prompt-engine.md",
+      "relevance_score": 7.5,
+      "tags": [
+        "gpt-image-2",
+        "prompt-engineering",
+        "image-generation",
+        "openai",
+        "education",
+        "text-to-image"
+      ],
+      "summary": "这是一个针对 GPT-Image-2 模型的提示工程大师课程和生成指南项目。项目专注于 OpenAI 最新图像生成和编辑模型的提示词优化，提供系统性的文本到图像 prompt 编写策略和高"
+    },
+    {
+      "id": "IKingBarou/Zeroclaw-Plugin-Hub",
+      "title": "Zeroclaw-Plugin-Hub",
+      "slug": "ikingbarou-zeroclaw-plugin-hub",
+      "url": "https://github.com/IKingBarou/Zeroclaw-Plugin-Hub",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-ikingbarou-zeroclaw-plugin-hub.md",
+      "relevance_score": 8.5,
+      "tags": [
+        "claude-code",
+        "mcp",
+        "router",
+        "sdk",
+        "agentic-cli",
+        "developer-tools",
+        "plugin-hub"
+      ],
+      "summary": "ZeroClaw Plugin Hub 是一个面向 Claude Code 的多 MCP 路由器和 SDK 工具包。项目提供了 Agentic CLI 的扩展架构，支持多个 Model Context Protocol 服务器的动态路由和集成。它帮"
+    },
+    {
+      "id": "99xAgency/GodModeSkill",
+      "title": "GodModeSkill",
+      "slug": "99xagency-godmodeskill",
+      "url": "https://github.com/99xAgency/GodModeSkill",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-99xagency-godmodeskill.md",
+      "relevance_score": 9.0,
+      "tags": [
+        "claude-code",
+        "multi-llm",
+        "code-review",
+        "workflow",
+        "quality-assurance",
+        "agent-skills"
+      ],
+      "summary": "GodModeSkill 是一个为 Claude Code 设计的多 LLM 交叉评审工作流工具。它通过 /work 命令协调计划、实现和 Bug 修复三个阶段，并引入三个不同模型家族的投票机制作为每个阶"
+    },
+    {
+      "id": "nateherkai/AIS-OS",
+      "title": "AIS-OS",
+      "slug": "nateherkai-ais-os",
+      "url": "https://github.com/nateherkai/AIS-OS",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-nateherkai-ais-os.md",
+      "relevance_score": 7.5,
+      "tags": [
+        "claude-code",
+        "ai-os",
+        "developer-workflow",
+        "skill-kit",
+        "productivity",
+        "framework"
+      ],
+      "summary": "AIS-OS 是一个专为 Claude Code 设计的 AI 操作系统入门套件，包含三个核心技能（/onboard、/audit、/level-up）和 3Ms 框架。项目作为 AIOS 大师课程的配套工具，帮助开发者和"
+    },
+    {
+      "id": "mrslimslim/gpt-image-canvas",
+      "title": "gpt-image-canvas",
+      "slug": "mrslimslim-gpt-image-canvas",
+      "url": "https://github.com/mrslimslim/gpt-image-canvas",
+      "date": "2026-05-04",
+      "file_path": "knowledge/articles/2026-05-04/2026-05-04-mrslimslim-gpt-image-canvas.md",
+      "relevance_score": 7.0,
+      "tags": [
+        "ai-canvas",
+        "tldraw",
+        "image-generation",
+        "typescript",
+        "local-ai",
+        "creative-tools"
+      ],
+      "summary": "这是一个基于 tldraw 构建的本地专业 AI 画布工具，使用 TypeScript 开发。项目将 GPT 图像生成能力与无限画布交互界面相结合，支持在本地环境中进行 AI 辅助的视觉创作和图"
+    },
+    {
+      "id": "ChristianJR19/GoblinOS",
+      "title": "ChristianJR19/GoblinOS",
+      "slug": "christianjr19-goblinos",
+      "url": "https://github.com/ChristianJR19/GoblinOS",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-christianjr19-goblinos.json",
+      "relevance_score": 7,
+      "tags": [
+        "agent-personality",
+        "mood-driven",
+        "python",
+        "hermes-agent"
+      ],
+      "summary": "GoblinOS — 为Hermes Agent添加持久化情绪驱动人格层，赋予连续性个性，值得关注因为它解决了AI Agent缺乏一致个性的痛点"
+    },
+    {
+      "id": "orzcls/PersonaLingo",
+      "title": "orzcls/PersonaLingo",
+      "slug": "orzcls-personalingo",
+      "url": "https://github.com/orzcls/PersonaLingo",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-orzcls-personalingo.json",
+      "relevance_score": 7,
+      "tags": [
+        "ielts",
+        "rag",
+        "corpus-distillation",
+        "personalization",
+        "agent-skill"
+      ],
+      "summary": "PersonaLingo — 基于QMD-RAG双模式的AI雅思语料精炼工具，零后端即可个性化学习，值得雅思备考者关注"
+    },
+    {
+      "id": "youngwoocho02/unity-scanner",
+      "title": "youngwoocho02/unity-scanner",
+      "slug": "youngwoocho02-unity-scanner",
+      "url": "https://github.com/youngwoocho02/unity-scanner",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-youngwoocho02-unity-scanner.json",
+      "relevance_score": 7,
+      "tags": [
+        "unity",
+        "asset-scanner",
+        "token-saving",
+        "cli",
+        "agent-tools"
+      ],
+      "summary": "unity-scanner — 为AI Agent优化的Unity资源扫描器，通过精简输出结构减少Token消耗，适合集成到自动化工作流中"
+    },
+    {
+      "id": "puristajs/harness",
+      "title": "puristajs/harness",
+      "slug": "puristajs-harness",
+      "url": "https://github.com/puristajs/harness",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-puristajs-harness.json",
+      "relevance_score": 5,
+      "tags": [
+        "typescript",
+        "agent-framework",
+        "ai",
+        "llm"
+      ],
+      "summary": "puristajs/harness — 基于 TypeScript 的 AI Agent 开发框架，提供基础开发设施，适合快速搭建智能代理应用"
+    },
+    {
+      "id": "Marven11/LinHai",
+      "title": "Marven11/LinHai",
+      "slug": "marven11-linhai",
+      "url": "https://github.com/Marven11/LinHai",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-marven11-linhai.json",
+      "relevance_score": 5,
+      "tags": [
+        "multi-agent",
+        "security-research",
+        "bash",
+        "hacking",
+        "penetration-testing"
+      ],
+      "summary": "LinHai — 一个基于本地 Bash 执行的多机控制与渗透 Agent，面向安全研究，值得关注其将 Agent 与渗透测试结合的创新思路"
+    },
+    {
+      "id": "DotHarness/dotcraft-unity",
+      "title": "DotHarness/dotcraft-unity",
+      "slug": "dotharness-dotcraft-unity",
+      "url": "https://github.com/DotHarness/dotcraft-unity",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-dotharness-dotcraft-unity.json",
+      "relevance_score": 5,
+      "tags": [
+        "unity",
+        "agent-client",
+        "game-development",
+        "acp",
+        "simulation"
+      ],
+      "summary": "DotHarness/dotcraft-unity — 为AI Agent提供Unity游戏世界构建与调试客户端，适合研究Agent在游戏环境中的行为"
+    },
+    {
+      "id": "haileyok/cc-discord",
+      "title": "haileyok/cc-discord",
+      "slug": "haileyok-cc-discord",
+      "url": "https://github.com/haileyok/cc-discord",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-haileyok-cc-discord.json",
+      "relevance_score": 6,
+      "tags": [
+        "claude-code",
+        "discord-bridge",
+        "real-time",
+        "agent-output",
+        "integration"
+      ],
+      "summary": "cc-discord — 将Claude Code Agent输出实时同步到Discord，便于团队协作监控自动化任务"
+    },
+    {
+      "id": "ProfineAI/profine-cli",
+      "title": "ProfineAI/profine-cli",
+      "slug": "profineai-profine-cli",
+      "url": "https://github.com/ProfineAI/profine-cli",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-profineai-profine-cli.json",
+      "relevance_score": 7,
+      "tags": [
+        "gpu-profiling",
+        "pytorch",
+        "llm-agent",
+        "performance-optimization",
+        "cli"
+      ],
+      "summary": "profine-cli — 利用LLM Agent自动分析PyTorch GPU性能瓶颈并生成优化重写代码的CLI工具，值得关注因其将AI Agent应用于深度学习性能优化的创新尝试。"
+    },
+    {
+      "id": "mddb-ai/mddb-ai",
+      "title": "mddb-ai/mddb-ai",
+      "slug": "mddb-ai-mddb-ai",
+      "url": "https://github.com/mddb-ai/mddb-ai",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-mddb-ai-mddb-ai.json",
+      "relevance_score": 5,
+      "tags": [
+        "agent-memory",
+        "markdown",
+        "mcp",
+        "python",
+        "long-term-memory"
+      ],
+      "summary": "mddb-ai — 基于 Markdown 构建 Agent 长期记忆系统，记忆以人类可读可编辑格式存储，同时支持 MCP 协议与 Claude Code 集成，提升 Agent 的持久记忆能力"
+    },
+    {
+      "id": "affaan-m/everything-claude-code",
+      "title": "affaan-m/everything-claude-code",
+      "slug": "affaan-m-everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-affaan-m-everything-claude-code.json",
+      "relevance_score": 9,
+      "tags": [
+        "ai-agents",
+        "claude",
+        "developer-tools",
+        "mcp",
+        "performance-optimization"
+      ],
+      "summary": "everything-claude-code — 为Claude Code等AI代理提供性能优化的工具链，因解决代理开发中的效率与安全痛点而广受关注。"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "title": "Significant-Gravitas/AutoGPT",
+      "slug": "significant-gravitas-autogpt",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-significant-gravitas-autogpt.json",
+      "relevance_score": 8,
+      "tags": [
+        "autonomous-agents",
+        "llm",
+        "python",
+        "agent-framework",
+        "openai"
+      ],
+      "summary": "AutoGPT — 一个基于 GPT 的自主 AI 代理框架，让 AI 自动分解任务、使用工具并迭代执行，因其开创性理念和高社区关注度而值得关注"
+    },
+    {
+      "id": "ollama/ollama",
+      "title": "ollama/ollama",
+      "slug": "ollama-ollama",
+      "url": "https://github.com/ollama/ollama",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-ollama-ollama.json",
+      "relevance_score": 10,
+      "tags": [
+        "go",
+        "llm",
+        "local-inference",
+        "open-source",
+        "command-line-tool"
+      ],
+      "summary": "ollama — 本地运行大型语言模型的便捷工具，支持多种主流模型，社区活跃且易于使用"
+    },
+    {
+      "id": "f/prompts.chat",
+      "title": "f/prompts.chat",
+      "slug": "f-prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-f-prompts.chat.json",
+      "relevance_score": 8,
+      "tags": [
+        "prompts",
+        "chatgpt",
+        "awesome-list",
+        "prompt-engineering",
+        "open-source"
+      ],
+      "summary": "prompts.chat — 一个社区驱动的提示词分享与发现平台，自托管开源，拥有16万星标，是AI提示工程的重要资源库"
+    },
+    {
+      "id": "huggingface/transformers",
+      "title": "huggingface/transformers",
+      "slug": "huggingface-transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-huggingface-transformers.json",
+      "relevance_score": 10,
+      "tags": [
+        "deep-learning",
+        "nlp",
+        "pretrained-models",
+        "transformer",
+        "pytorch"
+      ],
+      "summary": "Hugging Face Transformers — 统一接口的预训练模型框架，支持文本、视觉、音频等多模态模型，是深度学习和 NLP 领域最流行的工具之一。"
+    },
+    {
+      "id": "Snailclimb/JavaGuide",
+      "title": "Snailclimb/JavaGuide",
+      "slug": "snailclimb-javaguide",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-snailclimb-javaguide.json",
+      "relevance_score": 8,
+      "tags": [
+        "interview-guide",
+        "java",
+        "system-design",
+        "ai-development",
+        "backend"
+      ],
+      "summary": "JavaGuide — 互联网 Java 工程师面试与后端知识体系，涵盖面试高频考点、系统设计及 AI 应用开发，凭借 15.5 万 star 成为最受认可的 Java 学习资料之一"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "slug": "nousresearch-hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-nousresearch-hermes-agent.json",
+      "relevance_score": 9,
+      "tags": [
+        "ai",
+        "agent",
+        "python",
+        "open-source",
+        "llm"
+      ],
+      "summary": "NousResearch/hermes-agent — 一个基于 LLM 的 AI 代理框架，支持多模型集成并强调个性化成长，由 Nous Research 打造且社区关注度极高。"
+    },
+    {
+      "id": "langgenius/dify",
+      "title": "langgenius/dify",
+      "slug": "langgenius-dify",
+      "url": "https://github.com/langgenius/dify",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-langgenius-dify.json",
+      "relevance_score": 10,
+      "tags": [
+        "agentic-workflow",
+        "llm-orchestration",
+        "low-code",
+        "production-tool"
+      ],
+      "summary": "Dify — 生产级 AI 工作流开发平台，低代码/无代码构建 LLM 应用，因高度可定制且开源备受关注。"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "title": "open-webui/open-webui",
+      "slug": "open-webui-open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-open-webui-open-webui.json",
+      "relevance_score": 10,
+      "tags": [
+        "ai-chat",
+        "llm-webui",
+        "self-hosted",
+        "ollama",
+        "rag"
+      ],
+      "summary": "open-webui — 一个用户友好的自托管AI界面，支持Ollama、OpenAI等多种LLM后端，功能丰富且社区活跃，是LLM交互的必备工具。"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "title": "langchain-ai/langchain",
+      "slug": "langchain-ai-langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-langchain-ai-langchain.json",
+      "relevance_score": 10,
+      "tags": [
+        "llm",
+        "agents",
+        "rag",
+        "framework",
+        "python"
+      ],
+      "summary": "langchain — 一个用于构建LLM应用和Agent的工程平台，因其强大的抽象能力、广泛的模型集成和活跃的社区而成为行业标准。"
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "title": "firecrawl/firecrawl",
+      "slug": "firecrawl-firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-firecrawl-firecrawl.json",
+      "relevance_score": 10,
+      "tags": [
+        "web-scraping",
+        "ai-agents",
+        "data-extraction",
+        "markdown",
+        "search"
+      ],
+      "summary": "Firecrawl — 为AI代理提供网页搜索、抓取与清洗的一站式工具，凭借高星标与活跃社区成为该领域的标杆项目。"
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "title": "rasbt/LLMs-from-scratch",
+      "slug": "rasbt-llms-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-rasbt-llms-from-scratch.json",
+      "relevance_score": 8,
+      "tags": [
+        "llm",
+        "pytorch",
+        "educational",
+        "transformer",
+        "from-scratch"
+      ],
+      "summary": "rasbt/LLMs-from-scratch — 从零开始用PyTorch逐步实现ChatGPT类大语言模型，因其高星数和清晰的教学设计而备受关注"
+    },
+    {
+      "id": "browser-use/browser-use",
+      "title": "browser-use/browser-use",
+      "slug": "browser-use-browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-browser-use-browser-use.json",
+      "relevance_score": 9,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm-integration",
+        "playwright",
+        "python"
+      ],
+      "summary": "browser-use — 让AI代理能轻松操控网站，自动化在线任务，基于Playwright与LLM集成，高星热门项目"
+    },
+    {
+      "id": "vllm-project/vllm",
+      "title": "vllm-project/vllm",
+      "slug": "vllm-project-vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-vllm-project-vllm.json",
+      "relevance_score": 10,
+      "tags": [
+        "llm-inference",
+        "serving-engine",
+        "high-throughput",
+        "memory-efficient",
+        "pytorch"
+      ],
+      "summary": "vllm — 一个高吞吐量、内存效率高的LLM推理和服务引擎，因其高性能和广泛兼容性而备受关注。"
+    },
+    {
+      "id": "mlabonne/llm-course",
+      "title": "mlabonne/llm-course",
+      "slug": "mlabonne-llm-course",
+      "url": "https://github.com/mlabonne/llm-course",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-mlabonne-llm-course.json",
+      "relevance_score": 9,
+      "tags": [
+        "llm",
+        "course",
+        "educational-resource",
+        "machine-learning",
+        "roadmap"
+      ],
+      "summary": "mlabonne/llm-course — 提供大型语言模型学习路线图和Colab笔记本的课程资源，因高星和实用性深受社区欢迎"
+    },
+    {
+      "id": "lobehub/lobehub",
+      "title": "lobehub/lobehub",
+      "slug": "lobehub-lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-lobehub-lobehub.json",
+      "relevance_score": 10,
+      "tags": [
+        "agent",
+        "ai",
+        "open-source",
+        "multi-model",
+        "workflow"
+      ],
+      "summary": "LobeHub — 一个开源的AI Agent管理平台，让你像管理团队一样雇佣、调度、监控多个AI Agent，支持多种主流大模型，实现7×24自动化协作。77k+ Stars印证其解决多Agent协作痛点的生产级价值。"
+    },
+    {
+      "id": "TauricResearch/TradingAgents",
+      "title": "TauricResearch/TradingAgents",
+      "slug": "tauricresearch-tradingagents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-tauricresearch-tradingagents.json",
+      "relevance_score": 9,
+      "tags": [
+        "finance",
+        "trading",
+        "multi-agent",
+        "llm",
+        "framework"
+      ],
+      "summary": "TradingAgents — 基于多智能体LLM的金融交易框架，通过多智能体协作实现自动化交易策略，因高Star数和广泛关注而值得关注。"
+    },
+    {
+      "id": "OpenHands/OpenHands",
+      "title": "OpenHands/OpenHands",
+      "slug": "openhands-openhands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-openhands-openhands.json",
+      "relevance_score": 9,
+      "tags": [
+        "ai-agent",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "cli"
+      ],
+      "summary": "OpenHands — AI驱动的开发平台，通过LLM和Agent技术提升开发效率，值得关注因其高人气和创新性。"
+    },
+    {
+      "id": "hiyouga/LlamaFactory",
+      "title": "hiyouga/LlamaFactory",
+      "slug": "hiyouga-llamafactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-hiyouga-llamafactory.json",
+      "relevance_score": 9,
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "efficient-training",
+        "deep-learning",
+        "open-source"
+      ],
+      "summary": "hiyouga/LlamaFactory — 统一高效微调100+大语言模型和视觉语言模型，支持多种微调方法（LoRA、QLoRA、RLHF等），因通用性强、易用性高而广受关注"
+    },
+    {
+      "id": "FoundationAgents/MetaGPT",
+      "title": "FoundationAgents/MetaGPT",
+      "slug": "foundationagents-metagpt",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "date": "2026-05-17",
+      "file_path": "knowledge/articles/2026-05-17/2026-05-17-foundationagents-metagpt.json",
+      "relevance_score": 10,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "framework",
+        "python",
+        "natural-language-programming"
+      ],
+      "summary": "MetaGPT — 多智能体框架模拟软件公司，通过自然语言编程自动生成软件产品，以高星数和活跃社区成为AI Agent领域标杆"
+    }
+  ]
+}

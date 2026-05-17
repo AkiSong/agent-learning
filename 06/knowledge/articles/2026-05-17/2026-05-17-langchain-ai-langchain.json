@@ -1,0 +1,26 @@
+{
+  "id": "langchain-ai/langchain",
+  "full_name": "langchain-ai/langchain",
+  "source": "github-trending",
+  "html_url": "https://github.com/langchain-ai/langchain",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "langchain — 一个用于构建LLM应用和Agent的工程平台，因其强大的抽象能力、广泛的模型集成和活跃的社区而成为行业标准。",
+  "highlights": [
+    "提供统一的接口与数十种LLM和嵌入模型集成",
+    "支持链、Agent、RAG等复杂工作流的构建",
+    "拥有庞大的生态和社区，大量工具和扩展支持"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "这是一个生产级的开源框架，解决了构建基于LLM的复杂应用（如Agent、RAG）的核心痛点，已被广泛采用，并持续维护和更新。",
+  "tags": [
+    "llm",
+    "agents",
+    "rag",
+    "framework",
+    "python"
+  ],
+  "language": "Python",
+  "stargazers_count": 136918,
+  "status": "published"
+}

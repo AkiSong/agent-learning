@@ -1,0 +1,26 @@
+{
+  "id": "affaan-m/everything-claude-code",
+  "full_name": "affaan-m/everything-claude-code",
+  "source": "github-trending",
+  "html_url": "https://github.com/affaan-m/everything-claude-code",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "everything-claude-code — 为Claude Code等AI代理提供性能优化的工具链，因解决代理开发中的效率与安全痛点而广受关注。",
+  "highlights": [
+    "支持Claude Code、Codex、Opencode、Cursor等多个AI代理平台",
+    "整合技能、直觉、记忆、安全等核心模块，提升代理表现",
+    "强调研究驱动的开发方法，推动代理系统持续进化"
+  ],
+  "relevance_score": 9,
+  "score": 9,
+  "score_reason": "项目星数极高，描述表明其作为生产级工具解决了AI代理开发中的关键痛点（性能优化、多平台兼容、安全增强），且话题覆盖广泛，具备通用性和实际价值。",
+  "tags": [
+    "ai-agents",
+    "claude",
+    "developer-tools",
+    "mcp",
+    "performance-optimization"
+  ],
+  "language": "JavaScript",
+  "stargazers_count": 185070,
+  "status": "published"
+}

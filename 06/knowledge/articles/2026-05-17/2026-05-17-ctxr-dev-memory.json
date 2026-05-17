@@ -1,0 +1,25 @@
+{
+  "id": "ctxr-dev/memory",
+  "full_name": "ctxr-dev/memory",
+  "source": "github-trending",
+  "html_url": "https://github.com/ctxr-dev/memory",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "ctxr/memory — 为AI编码代理提供可检查的本地项目记忆系统，支持MCP与RAG，有助于提升Agent对项目上下文的持久化理解",
+  "highlights": [
+    "支持MCP协议，可集成到多种AI编码代理环境中",
+    "结合RAG技术实现记忆检索，增强Agent对项目知识的利用",
+    "专注本地记忆，保护隐私且无需依赖外部服务"
+  ],
+  "relevance_score": 6,
+  "score": 6,
+  "score_reason": "项目解决了AI编码代理缺少持久化记忆的痛点，技术方向有价值（MCP+RAG），但星星数量少、成熟度较低，适用范围相对狭窄",
+  "tags": [
+    "local-memory",
+    "mcp",
+    "rag",
+    "coding-agent"
+  ],
+  "language": "JavaScript",
+  "stargazers_count": 11,
+  "status": "published"
+}

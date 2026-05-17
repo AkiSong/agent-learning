@@ -1,0 +1,26 @@
+{
+  "id": "FoundationAgents/MetaGPT",
+  "full_name": "FoundationAgents/MetaGPT",
+  "source": "github-trending",
+  "html_url": "https://github.com/FoundationAgents/MetaGPT",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "MetaGPT — 多智能体框架模拟软件公司，通过自然语言编程自动生成软件产品，以高星数和活跃社区成为AI Agent领域标杆",
+  "highlights": [
+    "模拟软件公司全流程（产品经理、架构师、工程师等角色协作）",
+    "支持自然语言编程，自动生成代码和文档",
+    "超6.8万星标，社区活跃，生态完善"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "生产级工具，解决多智能体协作与软件自动生成的痛点，技术实现成熟，社区广泛验证，影响力极大",
+  "tags": [
+    "multi-agent",
+    "llm",
+    "framework",
+    "python",
+    "natural-language-programming"
+  ],
+  "language": "Python",
+  "stargazers_count": 68047,
+  "status": "published"
+}

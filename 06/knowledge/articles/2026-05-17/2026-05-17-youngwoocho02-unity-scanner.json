@@ -1,0 +1,26 @@
+{
+  "id": "youngwoocho02/unity-scanner",
+  "full_name": "youngwoocho02/unity-scanner",
+  "source": "github-trending",
+  "html_url": "https://github.com/youngwoocho02/unity-scanner",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "unity-scanner — 为AI Agent优化的Unity资源扫描器，通过精简输出结构减少Token消耗，适合集成到自动化工作流中",
+  "highlights": [
+    "专为AI Agent设计，输出格式精简以节省Token",
+    "专注于Unity资源扫描，有明确的实用场景",
+    "使用Go语言实现，性能良好，适合CLI集成"
+  ],
+  "relevance_score": 7,
+  "score": 7,
+  "score_reason": "解决了Agent使用Unity资源时Token浪费的痛点，但Stars较少且受众相对特定，通用性中等，整体有价值",
+  "tags": [
+    "unity",
+    "asset-scanner",
+    "token-saving",
+    "cli",
+    "agent-tools"
+  ],
+  "language": "Go",
+  "stargazers_count": 14,
+  "status": "published"
+}

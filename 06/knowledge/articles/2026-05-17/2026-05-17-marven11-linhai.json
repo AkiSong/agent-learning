@@ -1,0 +1,26 @@
+{
+  "id": "Marven11/LinHai",
+  "full_name": "Marven11/LinHai",
+  "source": "github-trending",
+  "html_url": "https://github.com/Marven11/LinHai",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "LinHai — 一个基于本地 Bash 执行的多机控制与渗透 Agent，面向安全研究，值得关注其将 Agent 与渗透测试结合的创新思路",
+  "highlights": [
+    "支持多机协同控制，适用于分布式渗透场景",
+    "基于本地 Bash 执行，轻量且易于集成",
+    "明确面向安全研究，提供编码与渗透双重能力"
+  ],
+  "relevance_score": 5,
+  "score": 5,
+  "score_reason": "项目概念有趣，将 Agent 与渗透测试结合，但 Stars 极少，成熟度和通用性不足，仅适合安全研究场景，适用范围较窄",
+  "tags": [
+    "multi-agent",
+    "security-research",
+    "bash",
+    "hacking",
+    "penetration-testing"
+  ],
+  "language": "Python",
+  "stargazers_count": 4,
+  "status": "published"
+}

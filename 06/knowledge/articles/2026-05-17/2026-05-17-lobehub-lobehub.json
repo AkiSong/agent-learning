@@ -1,0 +1,26 @@
+{
+  "id": "lobehub/lobehub",
+  "full_name": "lobehub/lobehub",
+  "source": "github-trending",
+  "html_url": "https://github.com/lobehub/lobehub",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "LobeHub — 一个开源的AI Agent管理平台，让你像管理团队一样雇佣、调度、监控多个AI Agent，支持多种主流大模型，实现7×24自动化协作。77k+ Stars印证其解决多Agent协作痛点的生产级价值。",
+  "highlights": [
+    "支持ChatGPT、Claude、DeepSeek、Gemini等十余种主流AI模型",
+    "提供Agent雇佣、调度、报告全流程管理，实现7×24自动化运行",
+    "开源且拥有77k+ Stars，社区活跃，生态完善"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "该项目直接解决了AI Agent协作与管理的核心痛点，提供生产级工具，支持多模型、全流程自动化，社区认可度极高，是当前最受关注的Agent管理平台之一。",
+  "tags": [
+    "agent",
+    "ai",
+    "open-source",
+    "multi-model",
+    "workflow"
+  ],
+  "language": "TypeScript",
+  "stargazers_count": 77173,
+  "status": "published"
+}

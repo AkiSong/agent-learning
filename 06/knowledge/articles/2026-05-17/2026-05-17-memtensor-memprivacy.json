@@ -1,0 +1,26 @@
+{
+  "id": "MemTensor/MemPrivacy",
+  "full_name": "MemTensor/MemPrivacy",
+  "source": "github-trending",
+  "html_url": "https://github.com/MemTensor/MemPrivacy",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "MemPrivacy — 边缘-云端 Agent 隐私保护记忆框架，利用 Qwen3 检测敏感信息，保护 Agent 记忆中的隐私数据",
+  "highlights": [
+    "结合 Qwen3 大模型进行敏感信息检测，实现精细化的隐私过滤",
+    "支持边缘-云端协同架构，兼顾隐私与性能",
+    "专为 Agent 记忆管理设计，解决 AI 应用中数据隐私痛点"
+  ],
+  "relevance_score": 6,
+  "score": 6,
+  "score_reason": "项目概念新颖，聚焦隐私保护这一重要问题，但 Star 数较少，可能处于早期开发阶段，实际可用性和社区认可度有待验证",
+  "tags": [
+    "privacy-preserving",
+    "agent-framework",
+    "edge-cloud",
+    "memory-management",
+    "llm-security"
+  ],
+  "language": "Python",
+  "stargazers_count": 28,
+  "status": "published"
+}

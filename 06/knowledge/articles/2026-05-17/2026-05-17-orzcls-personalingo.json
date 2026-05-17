@@ -1,0 +1,26 @@
+{
+  "id": "orzcls/PersonaLingo",
+  "full_name": "orzcls/PersonaLingo",
+  "source": "github-trending",
+  "html_url": "https://github.com/orzcls/PersonaLingo",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "PersonaLingo — 基于QMD-RAG双模式的AI雅思语料精炼工具，零后端即可个性化学习，值得雅思备考者关注",
+  "highlights": [
+    "双模式QMD-RAG结合语料精炼，实现高效个性化学习",
+    "零后端技能要求，降低使用门槛，适合非技术用户",
+    "专注雅思领域，提供定制化语料和智能辅助"
+  ],
+  "relevance_score": 7,
+  "score": 7,
+  "score_reason": "项目针对雅思备考这一特定场景，结合RAG和语料精炼技术，具有明确的价值和创新性，但Stars较少且适用范围较窄，整体评分7分。",
+  "tags": [
+    "ielts",
+    "rag",
+    "corpus-distillation",
+    "personalization",
+    "agent-skill"
+  ],
+  "language": "Python",
+  "stargazers_count": 19,
+  "status": "published"
+}

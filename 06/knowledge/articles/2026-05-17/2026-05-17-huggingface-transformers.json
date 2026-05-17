@@ -1,0 +1,26 @@
+{
+  "id": "huggingface/transformers",
+  "full_name": "huggingface/transformers",
+  "source": "github-trending",
+  "html_url": "https://github.com/huggingface/transformers",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "Hugging Face Transformers — 统一接口的预训练模型框架，支持文本、视觉、音频等多模态模型，是深度学习和 NLP 领域最流行的工具之一。",
+  "highlights": [
+    "海量预训练模型库，覆盖主流架构（BERT、GPT、T5、LLaMA 等）",
+    "统一的 API 设计，便于快速尝试和交换模型",
+    "支持 PyTorch/TensorFlow/JAX 后端，训练与推理一站式解决方案"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "生产级工具，解决机器学习从业者使用和部署预训练模型的根本痛点，社区活跃度极高，生态完善，影响力巨大。",
+  "tags": [
+    "deep-learning",
+    "nlp",
+    "pretrained-models",
+    "transformer",
+    "pytorch"
+  ],
+  "language": "Python",
+  "stargazers_count": 160678,
+  "status": "published"
+}

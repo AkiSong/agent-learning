@@ -1,0 +1,26 @@
+{
+  "id": "haileyok/cc-discord",
+  "full_name": "haileyok/cc-discord",
+  "source": "github-trending",
+  "html_url": "https://github.com/haileyok/cc-discord",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "cc-discord — 将Claude Code Agent输出实时同步到Discord，便于团队协作监控自动化任务",
+  "highlights": [
+    "专为Claude Code设计的Discord桥接，实现实时输出转发",
+    "支持Zellij终端多路复用器集成",
+    "零配置即可与Discord频道对接，便于AI Agent的远程监控"
+  ],
+  "relevance_score": 6,
+  "score": 6,
+  "score_reason": "该工具专注于Claude Code的Discord桥接场景，目标明确且实现简洁，但Stars数较少，适用范围较窄，仅适合使用Claude Code并需要Discord协作的团队。",
+  "tags": [
+    "claude-code",
+    "discord-bridge",
+    "real-time",
+    "agent-output",
+    "integration"
+  ],
+  "language": "Python",
+  "stargazers_count": 3,
+  "status": "published"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ChristianJR19/GoblinOS",
+  "full_name": "ChristianJR19/GoblinOS",
+  "source": "github-trending",
+  "html_url": "https://github.com/ChristianJR19/GoblinOS",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "GoblinOS — 为Hermes Agent添加持久化情绪驱动人格层，赋予连续性个性，值得关注因为它解决了AI Agent缺乏一致个性的痛点",
+  "highlights": [
+    "情绪驱动的人格层使Agent交互更自然且具连续性",
+    "基于Hermes Agent扩展，可集成到现有Agent系统",
+    "开源实现，便于定制和实验"
+  ],
+  "relevance_score": 7,
+  "score": 7,
+  "score_reason": "有明确的应用场景和实现价值，但依赖特定Agent框架（Hermes），通用性有限；Stars数量中等，概念新颖但尚未达到生产级工具标准",
+  "tags": [
+    "agent-personality",
+    "mood-driven",
+    "python",
+    "hermes-agent"
+  ],
+  "language": "Python",
+  "stargazers_count": 303,
+  "status": "published"
+}

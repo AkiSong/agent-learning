@@ -1,0 +1,26 @@
+{
+  "id": "firecrawl/firecrawl",
+  "full_name": "firecrawl/firecrawl",
+  "source": "github-trending",
+  "html_url": "https://github.com/firecrawl/firecrawl",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "Firecrawl — 为AI代理提供网页搜索、抓取与清洗的一站式工具，凭借高星标与活跃社区成为该领域的标杆项目。",
+  "highlights": [
+    "超过12万星标，社区活跃度极高",
+    "专为AI代理设计，支持HTML转Markdown等多种结构化输出",
+    "集成搜索与爬虫功能，简化AI数据获取流程"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "生产级工具，直接解决AI代理获取网页数据的关键痛点，功能完善且被广泛采用。",
+  "tags": [
+    "web-scraping",
+    "ai-agents",
+    "data-extraction",
+    "markdown",
+    "search"
+  ],
+  "language": "TypeScript",
+  "stargazers_count": 120788,
+  "status": "published"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "puristajs/harness",
+  "full_name": "puristajs/harness",
+  "source": "github-trending",
+  "html_url": "https://github.com/puristajs/harness",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "puristajs/harness — 基于 TypeScript 的 AI Agent 开发框架，提供基础开发设施，适合快速搭建智能代理应用",
+  "highlights": [
+    "使用 TypeScript 构建，类型安全且生态兼容性好",
+    "专注于 AI Agent 开发的基础设施，降低开发门槛",
+    "话题标签显示与 agent-framework 生态对接"
+  ],
+  "relevance_score": 5,
+  "score": 5,
+  "score_reason": "项目处于早期阶段，Star数量少(4)，但定位清晰，提供AI Agent开发基础设施，有一定参考价值，但适用范围较窄",
+  "tags": [
+    "typescript",
+    "agent-framework",
+    "ai",
+    "llm"
+  ],
+  "language": "TypeScript",
+  "stargazers_count": 4,
+  "status": "published"
+}

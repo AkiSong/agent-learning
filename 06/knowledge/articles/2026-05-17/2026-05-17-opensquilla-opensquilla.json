@@ -1,0 +1,26 @@
+{
+  "id": "opensquilla/opensquilla",
+  "full_name": "opensquilla/opensquilla",
+  "source": "github-trending",
+  "html_url": "https://github.com/opensquilla/opensquilla",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "OpenSquilla — 在有限 Token 预算下提升智能密度的 Agent 框架，通过集成 MCP 协议和技能/记忆系统优化效率，值得关注其解决 Token 成本痛点",
+  "highlights": [
+    "Token 效率优化：同等预算实现更高智能密度，降低使用成本",
+    "集成 MCP 协议：对接通用工具和数据源，增强扩展性",
+    "技能系统与持久记忆：模块化设计提升 Agent 的适应性和连续性"
+  ],
+  "relevance_score": 7,
+  "score": 7,
+  "score_reason": "项目针对 Agent 开发中的 Token 成本痛点提出明确优化方案，集成 MCP 和技能/记忆系统，实用性强；但社区规模较小、生态待完善，综合评分 7 分",
+  "tags": [
+    "python",
+    "agent-framework",
+    "token-efficiency",
+    "mcp",
+    "memory"
+  ],
+  "language": "Python",
+  "stargazers_count": 236,
+  "status": "published"
+}

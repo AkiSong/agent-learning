@@ -1,0 +1,26 @@
+{
+  "id": "Significant-Gravitas/AutoGPT",
+  "full_name": "Significant-Gravitas/AutoGPT",
+  "source": "github-trending",
+  "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "AutoGPT — 一个基于 GPT 的自主 AI 代理框架，让 AI 自动分解任务、使用工具并迭代执行，因其开创性理念和高社区关注度而值得关注",
+  "highlights": [
+    "自主任务分解与执行，无需人工干预",
+    "支持多轮思考与工具调用，扩展性强",
+    "社区活跃，持续集成新模型与功能"
+  ],
+  "relevance_score": 8,
+  "score": 8,
+  "score_reason": "AutoGPT 是自主 AI 代理领域的标志性项目，概念先进且社区认可度高（18万+ Star），但其稳定性和实用性尚在演进中，更适合作为探索和原型开发的工具，而非生产级解决方案。",
+  "tags": [
+    "autonomous-agents",
+    "llm",
+    "python",
+    "agent-framework",
+    "openai"
+  ],
+  "language": "Python",
+  "stargazers_count": 184364,
+  "status": "published"
+}

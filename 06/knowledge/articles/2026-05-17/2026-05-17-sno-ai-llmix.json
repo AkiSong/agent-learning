@@ -1,0 +1,25 @@
+{
+  "id": "sno-ai/llmix",
+  "full_name": "sno-ai/llmix",
+  "source": "github-trending",
+  "html_url": "https://github.com/sno-ai/llmix",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "sno-ai/llmix — 生产级 LLM 调用层，提供模型热切换、缓存、断路器和密钥轮换功能，支持多语言一致，适合高可用场景",
+  "highlights": [
+    "模型热切换，无需重启即可动态路由到不同 LLM",
+    "内置断路器机制，防止级联故障，提升系统稳定性",
+    "密钥轮换功能，保障调用安全，降低泄露风险"
+  ],
+  "relevance_score": 7,
+  "score": 7,
+  "score_reason": "项目解决 LLM 调用中的关键生产问题（热切换、断路器、密钥管理），设计思路清晰，但 Stars 较低，社区验证不足，通用性有待观察",
+  "tags": [
+    "llm-orchestration",
+    "circuit-breaker",
+    "production-infra",
+    "python"
+  ],
+  "language": "Python",
+  "stargazers_count": 30,
+  "status": "published"
+}

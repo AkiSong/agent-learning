@@ -1,0 +1,26 @@
+{
+  "id": "mlabonne/llm-course",
+  "full_name": "mlabonne/llm-course",
+  "source": "github-trending",
+  "html_url": "https://github.com/mlabonne/llm-course",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "mlabonne/llm-course — 提供大型语言模型学习路线图和Colab笔记本的课程资源，因高星和实用性深受社区欢迎",
+  "highlights": [
+    "提供从入门到进阶的完整学习路线图",
+    "包含可直接运行的Colab实践笔记本",
+    "拥有超过7.9万星标，社区高度认可"
+  ],
+  "relevance_score": 9,
+  "score": 9,
+  "score_reason": "作为LLM入门课程资源，解决了学习路径不清晰的核心痛点，内容实用且社区验证，但非生产级工具，故评9分",
+  "tags": [
+    "llm",
+    "course",
+    "educational-resource",
+    "machine-learning",
+    "roadmap"
+  ],
+  "language": "Unknown",
+  "stargazers_count": 79390,
+  "status": "published"
+}

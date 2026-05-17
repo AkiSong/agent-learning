@@ -1,0 +1,17 @@
+{
+  "id": "harness-engineering-2026-05-17",
+  "full_name": "harness/engineering",
+  "source": "github",
+  "html_url": "https://github.com/harness/engineering",
+  "collected_at": "2026-05-17T00:00:00Z",
+  "summary": "Harness Engineering 是一个聚焦于软件交付流水线工程化的开源项目，涵盖 CI/CD、持续交付、基础设施即代码等方向，帮助团队实现高效率的部署与发布自动化。",
+  "topics": [
+    "ci-cd",
+    "continuous-delivery",
+    "devops",
+    "infrastructure-as-code",
+    "software-engineering"
+  ],
+  "relevance_score": 7,
+  "status": "draft"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "looptech-ai/understand-quickly",
+  "full_name": "looptech-ai/understand-quickly",
+  "source": "github-trending",
+  "html_url": "https://github.com/looptech-ai/understand-quickly",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "understand-quickly — 代码知识图谱注册中心，为编码Agent提供结构化理解力，通过MCP协议和Schema验证实现Agent对代码的精准感知",
+  "highlights": [
+    "基于代码知识图谱，为Agent提供结构化代码理解能力",
+    "采用MCP协议和Schema验证，确保Agent与知识库的可靠交互",
+    "作为注册中心，支持动态管理和扩展代码知识库"
+  ],
+  "relevance_score": 6,
+  "score": 6,
+  "score_reason": "项目方向具有价值，针对Agent理解代码库的痛点提供了结构化方案，但Stars较少，项目处于早期阶段，实用性和成熟度有待验证",
+  "tags": [
+    "code-knowledge-graph",
+    "agent-tools",
+    "mcp",
+    "registry",
+    "schema-validated"
+  ],
+  "language": "JavaScript",
+  "stargazers_count": 20,
+  "status": "published"
+}

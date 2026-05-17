@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-17",
+  "source": "github-trending",
+  "collected_at": "2026-05-17T12:00:00Z",
+  "repositories": [
+    {
+      "id": "langchain-ai/langgraph",
+      "full_name": "langchain-ai/langgraph",
+      "description": "Build resilient agents.",
+      "summary": "LangGraph — LangChain 推出的弹性 Agent 构建框架，基于有向图编排多步骤 LLM 工作流，支持状态管理、循环与分支控制，适用于复杂多 Agent 协作场景",
+      "html_url": "https://github.com/langchain-ai/langgraph",
+      "stargazers_count": 32198,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag"
+      ],
+      "created_at": "2023-08-09T18:33:12Z",
+      "pushed_at": "2026-05-17T01:08:42Z",
+      "relevance_score": 10
+    }
+  ]
+}

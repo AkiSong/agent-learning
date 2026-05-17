@@ -1,0 +1,26 @@
+{
+  "id": "vllm-project/vllm",
+  "full_name": "vllm-project/vllm",
+  "source": "github-trending",
+  "html_url": "https://github.com/vllm-project/vllm",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "vllm — 一个高吞吐量、内存效率高的LLM推理和服务引擎，因其高性能和广泛兼容性而备受关注。",
+  "highlights": [
+    "高吞吐量与低延迟",
+    "内存效率卓越（如PagedAttention）",
+    "支持多种GPU和模型架构"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "vLLM已成为LLM推理的标准工具，极大提升了推理效率，广泛应用于生产环境，解决核心痛点。",
+  "tags": [
+    "llm-inference",
+    "serving-engine",
+    "high-throughput",
+    "memory-efficient",
+    "pytorch"
+  ],
+  "language": "Python",
+  "stargazers_count": 80224,
+  "status": "published"
+}

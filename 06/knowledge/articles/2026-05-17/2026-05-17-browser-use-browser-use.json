@@ -1,0 +1,26 @@
+{
+  "id": "browser-use/browser-use",
+  "full_name": "browser-use/browser-use",
+  "source": "github-trending",
+  "html_url": "https://github.com/browser-use/browser-use",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "browser-use — 让AI代理能轻松操控网站，自动化在线任务，基于Playwright与LLM集成，高星热门项目",
+  "highlights": [
+    "突破性解决AI代理与网页交互的核心痛点",
+    "基于Playwright实现稳定浏览器自动化",
+    "社区活跃，近10万星，生产级工具"
+  ],
+  "relevance_score": 9,
+  "score": 9,
+  "score_reason": "该项目是生产级工具，直接解决AI代理与网页互动的关键痛点，技术成熟且社区支持强，通用性极佳",
+  "tags": [
+    "ai-agents",
+    "browser-automation",
+    "llm-integration",
+    "playwright",
+    "python"
+  ],
+  "language": "Python",
+  "stargazers_count": 94248,
+  "status": "published"
+}

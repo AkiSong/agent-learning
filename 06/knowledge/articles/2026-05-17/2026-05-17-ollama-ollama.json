@@ -1,0 +1,26 @@
+{
+  "id": "ollama/ollama",
+  "full_name": "ollama/ollama",
+  "source": "github-trending",
+  "html_url": "https://github.com/ollama/ollama",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "ollama — 本地运行大型语言模型的便捷工具，支持多种主流模型，社区活跃且易于使用",
+  "highlights": [
+    "支持多种主流模型（DeepSeek、Qwen、Gemma等）",
+    "提供简洁的命令行接口，本地部署LLM极为方便",
+    "拥有庞大的社区（17万+星标）和活跃的生态"
+  ],
+  "relevance_score": 10,
+  "score": 10,
+  "score_reason": "生产级工具，解决了用户在本地运行LLM的核心痛点，支持模型丰富，社区认可度极高，是AI/LLM领域的基础设施",
+  "tags": [
+    "go",
+    "llm",
+    "local-inference",
+    "open-source",
+    "command-line-tool"
+  ],
+  "language": "Go",
+  "stargazers_count": 171577,
+  "status": "published"
+}

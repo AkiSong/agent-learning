@@ -1,0 +1,26 @@
+{
+  "id": "OpenHands/OpenHands",
+  "full_name": "OpenHands/OpenHands",
+  "source": "github-trending",
+  "html_url": "https://github.com/OpenHands/OpenHands",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "OpenHands — AI驱动的开发平台，通过LLM和Agent技术提升开发效率，值得关注因其高人气和创新性。",
+  "highlights": [
+    "AI驱动的开发工具，集成多种LLM模型",
+    "支持命令行和图形界面交互",
+    "高关注度（73K+ Stars），社区活跃"
+  ],
+  "relevance_score": 9,
+  "score": 9,
+  "score_reason": "生产级AI开发工具，解决开发者痛点，高星数验证其价值和广泛需求",
+  "tags": [
+    "ai-agent",
+    "developer-tools",
+    "llm",
+    "open-source",
+    "cli"
+  ],
+  "language": "Python",
+  "stargazers_count": 73799,
+  "status": "published"
+}

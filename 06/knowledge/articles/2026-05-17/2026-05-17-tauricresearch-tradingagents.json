@@ -1,0 +1,26 @@
+{
+  "id": "TauricResearch/TradingAgents",
+  "full_name": "TauricResearch/TradingAgents",
+  "source": "github-trending",
+  "html_url": "https://github.com/TauricResearch/TradingAgents",
+  "collected_at": "2026-05-17T08:52:58Z",
+  "summary": "TradingAgents — 基于多智能体LLM的金融交易框架，通过多智能体协作实现自动化交易策略，因高Star数和广泛关注而值得关注。",
+  "highlights": [
+    "多智能体协作架构，模拟交易团队协作决策",
+    "集成大型语言模型，实现智能市场分析",
+    "社区活跃，Star数超过7.6万，证明实用价值"
+  ],
+  "relevance_score": 9,
+  "score": 9,
+  "score_reason": "作为生产级的金融交易框架，解决自动化交易的痛点，多智能体设计结合LLM带来创新，高Star印证其广泛认可。",
+  "tags": [
+    "finance",
+    "trading",
+    "multi-agent",
+    "llm",
+    "framework"
+  ],
+  "language": "Python",
+  "stargazers_count": 76262,
+  "status": "published"
+}

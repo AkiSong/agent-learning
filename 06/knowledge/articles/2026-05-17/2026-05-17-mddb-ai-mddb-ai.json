@@ -1,0 +1,26 @@
+{
+  "id": "mddb-ai/mddb-ai",
+  "full_name": "mddb-ai/mddb-ai",
+  "source": "github-trending",
+  "html_url": "https://github.com/mddb-ai/mddb-ai",
+  "collected_at": "2026-05-17T08:48:04Z",
+  "summary": "mddb-ai — 基于 Markdown 构建 Agent 长期记忆系统，记忆以人类可读可编辑格式存储，同时支持 MCP 协议与 Claude Code 集成，提升 Agent 的持久记忆能力",
+  "highlights": [
+    "记忆以 Markdown 文件形式存储，人类可直接查看和编辑，增强透明度和可干预性",
+    "支持 MCP（Model Context Protocol），可对接多种 AI 工具和平台",
+    "针对 Claude Code 等编码 Agent 设计，有助于提升复杂任务的连续性和上下文记忆"
+  ],
+  "relevance_score": 5,
+  "score": 5,
+  "score_reason": "概念有价值，解决 Agent 长期记忆的人机协作痛点，但项目星星极少，成熟度和社区验证不足，适用范围暂窄",
+  "tags": [
+    "agent-memory",
+    "markdown",
+    "mcp",
+    "python",
+    "long-term-memory"
+  ],
+  "language": "Python",
+  "stargazers_count": 1,
+  "status": "published"
+}
