@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-17",
+  "source": "tech-summary",
+  "analyzed_at": "2026-05-17T12:00:00Z",
+  "trends": {
+    "common_themes": [],
+    "emerging_concepts": [
+      "platform-engineering",
+      "gitops-iac-convergence"
+    ]
+  },
+  "items": [
+    {
+      "id": "harness-engineering-2026-05-17",
+      "full_name": "harness/engineering",
+      "summary": "Harness Engineering — 软件交付流水线工程化平台，覆盖 CI/CD 与 IaC，助力部署发布自动化",
+      "highlights": [
+        "覆盖从 CI/CD 到持续交付的全链路流水线能力",
+        "集成基础设施即代码（IaC）实践，支持可复现的环境部署",
+        "面向软件工程全流程的工程化方案，不局限于单一环节"
+      ],
+      "score": 4,
+      "score_reason": "项目聚焦 CI/CD 与 DevOps 领域，与 AI/LLM/Agent 直接相关度极低；虽 MLOps 场景可借鉴其流水线实践，但本身并非 AI 基础设施项目，且仓库不可访问（404）导致无法验证具体技术深度",
+      "tags": [
+        "ci-cd",
+        "continuous-delivery",
+        "devops",
+        "infrastructure-as-code",
+        "software-delivery"
+      ],
+      "html_url": "https://github.com/harness/engineering",
+      "language": "",
+      "stargazers_count": 0
+    }
+  ]
+}

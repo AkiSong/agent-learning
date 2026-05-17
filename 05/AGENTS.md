@@ -38,7 +38,7 @@
 - 使用 2 空格缩进
 - 日期格式：ISO 8601（`YYYY-MM-DDTHH:mm:ssZ`）
 - 字符编码：UTF-8
-- 每个知识条目必须包含：`id`, `title`, `source`, `url`, `collected_at`, `summary`, `tags`, `relevance_score`
+- 每个知识条目必须包含：`id`, `full_name`, `source`, `html_url`, `collected_at`, `summary`, `topics`, `relevance_score`
 
 ### 语言约定
 - 代码、JSON 键名、文件名：英文
